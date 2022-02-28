@@ -11,11 +11,12 @@ nav_order: 1
 
 #### 상속
 
-```
- ↳ System.Object
-    ↳ NekoEquipSlot
-```
-네임스페이스: Commons.Server
+<div class="code-example" markdown="1" style = "font-size:0.8em;">
+↳ System.Object<br/>
+　↳ NekoEquipSlot
+</div>
+
+네임스페이스: [Commons.Server](../)
 {: .text-zeta}
 
 어셈블리: Creator.dll

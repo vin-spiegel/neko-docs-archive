@@ -10,4 +10,7 @@ nav_order: 6
 
 # Class StatusCode
 
-
+<div class="code-example" markdown="1" style = "font-size:0.8em;">
+↳ System.Object<br/>
+　↳ StatusCode
+</div>
