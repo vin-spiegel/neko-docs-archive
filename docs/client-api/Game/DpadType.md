@@ -4,7 +4,6 @@ title: DpadType
 parent: Game
 grand_parent: Client API
 nav_order: 1
-permalink: /docs/client-api/game/dpad-type
 ---
 {:toc}
 
