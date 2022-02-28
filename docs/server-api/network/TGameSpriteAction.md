@@ -41,6 +41,7 @@ public int delay { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 loop
 #### 선언
@@ -50,6 +51,7 @@ public bool loop { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 name
 #### 선언
@@ -59,6 +61,7 @@ public string name { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 nodes
 #### 선언
@@ -68,6 +71,7 @@ public List<TGameSpriteActionCell> nodes { get; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Collections.Generic.List<TGameSpriteActionCell>	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
@@ -80,6 +84,7 @@ System.Boolean	createIfMissing
 반환
 
 |타입|설명|
+|:-|:-|
 ProtoBuf.IExtension	
 구현
 ProtoBuf.IExtensible

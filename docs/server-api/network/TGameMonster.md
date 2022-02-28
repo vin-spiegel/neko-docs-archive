@@ -41,6 +41,7 @@ public int agility { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 attack
 #### 선언
@@ -50,6 +51,7 @@ public int attack { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 attackOffsetX
 #### 선언
@@ -59,6 +61,7 @@ public int attackOffsetX { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 attackOffsetY
 #### 선언
@@ -68,6 +71,7 @@ public int attackOffsetY { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 attackRange
 #### 선언
@@ -77,6 +81,7 @@ public int attackRange { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 attackTime
 #### 선언
@@ -86,6 +91,7 @@ public float attackTime { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 attackType
 #### 선언
@@ -95,6 +101,7 @@ public int attackType { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 collision
 #### 선언
@@ -104,6 +111,7 @@ public bool collision { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 collisionWithMap
 #### 선언
@@ -113,6 +121,7 @@ public bool collisionWithMap { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 consumeFatigue
 #### 선언
@@ -122,6 +131,7 @@ public long consumeFatigue { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int64	
 defense
 #### 선언
@@ -131,6 +141,7 @@ public int defense { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 dropEXP
 #### 선언
@@ -140,6 +151,7 @@ public long dropEXP { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int64	
 dropItems
 #### 선언
@@ -149,6 +161,7 @@ public List<TGameDropItem> dropItems { get; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Collections.Generic.List<TGameDropItem>	
 dropMaxGameMoney
 #### 선언
@@ -158,6 +171,7 @@ public long dropMaxGameMoney { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int64	
 dropMinGameMoney
 #### 선언
@@ -167,6 +181,7 @@ public long dropMinGameMoney { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int64	
 imageID
 #### 선언
@@ -176,6 +191,7 @@ public string imageID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 isDirectGiveItem
 #### 선언
@@ -185,6 +201,7 @@ public bool isDirectGiveItem { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 l_name
 #### 선언
@@ -194,6 +211,7 @@ public LString l_name { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 network.LString	
 lucky
 #### 선언
@@ -203,6 +221,7 @@ public int lucky { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 magicAttack
 #### 선언
@@ -212,6 +231,7 @@ public int magicAttack { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 magicDefense
 #### 선언
@@ -221,6 +241,7 @@ public int magicDefense { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 maxHP
 #### 선언
@@ -230,6 +251,7 @@ public int maxHP { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 maxLevel
 #### 선언
@@ -239,6 +261,7 @@ public int maxLevel { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 maxMP
 #### 선언
@@ -248,6 +271,7 @@ public int maxMP { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 memo
 #### 선언
@@ -257,6 +281,7 @@ public string memo { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 minLevel
 #### 선언
@@ -266,6 +291,7 @@ public int minLevel { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 moveSpeed
 #### 선언
@@ -275,6 +301,7 @@ public int moveSpeed { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 moveStyle
 #### 선언
@@ -284,6 +311,7 @@ public int moveStyle { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 name
 #### 선언
@@ -293,6 +321,7 @@ public string name { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 respawnTime
 #### 선언
@@ -302,6 +331,7 @@ public int respawnTime { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 teamTag
 #### 선언
@@ -311,6 +341,7 @@ public uint teamTag { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.UInt32	
 traits
 #### 선언
@@ -320,6 +351,7 @@ public List<TGameMapEventCommand> traits { get; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Collections.Generic.List<network.TGameMapEventCommand>	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
@@ -332,6 +364,7 @@ System.Boolean	createIfMissing
 반환
 
 |타입|설명|
+|:-|:-|
 ProtoBuf.IExtension	
 구현
 ProtoBuf.IExtensible

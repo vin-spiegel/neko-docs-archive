@@ -41,6 +41,7 @@ public string damageFormula { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 damageType
 #### 선언
@@ -50,6 +51,7 @@ public int damageType { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 debuffCondition
 #### 선언
@@ -59,6 +61,7 @@ public int debuffCondition { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 debuffTime
 #### 선언
@@ -68,6 +71,7 @@ public int debuffTime { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 desc
 #### 선언
@@ -77,6 +81,7 @@ public string desc { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 hasCritical
 #### 선언
@@ -86,6 +91,7 @@ public bool hasCritical { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 iconID
 #### 선언
@@ -95,6 +101,7 @@ public string iconID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 isRemoveBuff
 #### 선언
@@ -104,6 +111,7 @@ public bool isRemoveBuff { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 l_desc
 #### 선언
@@ -113,6 +121,7 @@ public LString l_desc { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 network.LString	
 l_name
 #### 선언
@@ -122,6 +131,7 @@ public LString l_name { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 network.LString	
 memo
 #### 선언
@@ -131,6 +141,7 @@ public string memo { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 name
 #### 선언
@@ -140,6 +151,7 @@ public string name { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 oldTraits
 #### 선언
@@ -149,6 +161,7 @@ public List<TGameTrait> oldTraits { get; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Collections.Generic.List<network.TGameTrait>	
 showAnimation
 #### 선언
@@ -158,6 +171,7 @@ public bool showAnimation { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 showAnimationID
 #### 선언
@@ -167,6 +181,7 @@ public int showAnimationID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 tickTime
 #### 선언
@@ -176,6 +191,7 @@ public float tickTime { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 traits
 #### 선언
@@ -185,6 +201,7 @@ public List<TGameMapEventCommand> traits { get; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Collections.Generic.List<network.TGameMapEventCommand>	
 type
 #### 선언
@@ -194,6 +211,7 @@ public int type { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
@@ -206,6 +224,7 @@ System.Boolean	createIfMissing
 반환
 
 |타입|설명|
+|:-|:-|
 ProtoBuf.IExtension	
 구현
 ProtoBuf.IExtensible

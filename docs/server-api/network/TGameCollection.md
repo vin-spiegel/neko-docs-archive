@@ -41,6 +41,7 @@ public string desc { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 iconID
 #### 선언
@@ -50,6 +51,7 @@ public string iconID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 itemCount1
 #### 선언
@@ -59,6 +61,7 @@ public int itemCount1 { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 itemCount2
 #### 선언
@@ -68,6 +71,7 @@ public int itemCount2 { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 itemCount3
 #### 선언
@@ -77,6 +81,7 @@ public int itemCount3 { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 itemCount4
 #### 선언
@@ -86,6 +91,7 @@ public int itemCount4 { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 itemID1
 #### 선언
@@ -95,6 +101,7 @@ public int itemID1 { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 itemID2
 #### 선언
@@ -104,6 +111,7 @@ public int itemID2 { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 itemID3
 #### 선언
@@ -113,6 +121,7 @@ public int itemID3 { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 itemID4
 #### 선언
@@ -122,6 +131,7 @@ public int itemID4 { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 l_desc
 #### 선언
@@ -131,6 +141,7 @@ public LString l_desc { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 network.LString	
 l_name
 #### 선언
@@ -140,6 +151,7 @@ public LString l_name { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 network.LString	
 memo
 #### 선언
@@ -149,6 +161,7 @@ public string memo { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 name
 #### 선언
@@ -158,6 +171,7 @@ public string name { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 rewardGameMoney
 #### 선언
@@ -167,6 +181,7 @@ public long rewardGameMoney { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int64	
 rewardItemCount1
 #### 선언
@@ -176,6 +191,7 @@ public int rewardItemCount1 { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 rewardItemCount2
 #### 선언
@@ -185,6 +201,7 @@ public int rewardItemCount2 { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 rewardItemID1
 #### 선언
@@ -194,6 +211,7 @@ public int rewardItemID1 { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 rewardItemID2
 #### 선언
@@ -203,6 +221,7 @@ public int rewardItemID2 { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 traits
 #### 선언
@@ -212,6 +231,7 @@ public List<TGameMapEventCommand> traits { get; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Collections.Generic.List<network.TGameMapEventCommand>	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
@@ -224,6 +244,7 @@ System.Boolean	createIfMissing
 반환
 
 |타입|설명|
+|:-|:-|
 ProtoBuf.IExtension	
 구현
 ProtoBuf.IExtensible

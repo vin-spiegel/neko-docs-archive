@@ -41,6 +41,7 @@ public string autoTile1ID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 autoTile2ID
 #### 선언
@@ -50,6 +51,7 @@ public string autoTile2ID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 autoTile3ID
 #### 선언
@@ -59,6 +61,7 @@ public string autoTile3ID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 autoTile4ID
 #### 선언
@@ -68,6 +71,7 @@ public string autoTile4ID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 autoTile5ID
 #### 선언
@@ -77,6 +81,7 @@ public string autoTile5ID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 autoTile6ID
 #### 선언
@@ -86,6 +91,7 @@ public string autoTile6ID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 autoTile7ID
 #### 선언
@@ -95,6 +101,7 @@ public string autoTile7ID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 bushes
 #### 선언
@@ -104,6 +111,7 @@ public List<uint> bushes { get; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Collections.Generic.List<System.UInt32>	
 fogID
 #### 선언
@@ -113,6 +121,7 @@ public string fogID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 imageID
 #### 선언
@@ -122,6 +131,7 @@ public string imageID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 l_name
 #### 선언
@@ -131,6 +141,7 @@ public LString l_name { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 network.LString	
 movables
 #### 선언
@@ -140,6 +151,7 @@ public List<bool> movables { get; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Collections.Generic.List<System.Boolean>	
 movables4Ways
 #### 선언
@@ -149,6 +161,7 @@ public List<uint> movables4Ways { get; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Collections.Generic.List<System.UInt32>	
 name
 #### 선언
@@ -158,6 +171,7 @@ public string name { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 objects
 #### 선언
@@ -167,6 +181,7 @@ public List<TGameTilesetObject> objects { get; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Collections.Generic.List<network.TGameTilesetObject>	
 panorama1
 #### 선언
@@ -176,6 +191,7 @@ public TGamePanorama panorama1 { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 TGamePanorama	
 panorama1ID
 #### 선언
@@ -185,6 +201,7 @@ public string panorama1ID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 panorama2
 #### 선언
@@ -194,6 +211,7 @@ public TGamePanorama panorama2 { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 TGamePanorama	
 panorama2ID
 #### 선언
@@ -203,6 +221,7 @@ public string panorama2ID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 panorama3
 #### 선언
@@ -212,6 +231,7 @@ public TGamePanorama panorama3 { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 TGamePanorama	
 panorama3ID
 #### 선언
@@ -221,6 +241,7 @@ public string panorama3ID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 panorama4
 #### 선언
@@ -230,6 +251,7 @@ public TGamePanorama panorama4 { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 TGamePanorama	
 panorama4ID
 #### 선언
@@ -239,6 +261,7 @@ public string panorama4ID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 panorama5
 #### 선언
@@ -248,6 +271,7 @@ public TGamePanorama panorama5 { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 TGamePanorama	
 panorama5ID
 #### 선언
@@ -257,6 +281,7 @@ public string panorama5ID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 priorities
 #### 선언
@@ -266,6 +291,7 @@ public List<uint> priorities { get; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Collections.Generic.List<System.UInt32>	
 tag
 #### 선언
@@ -275,6 +301,7 @@ public List<uint> tag { get; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Collections.Generic.List<System.UInt32>	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
@@ -287,6 +314,7 @@ System.Boolean	createIfMissing
 반환
 
 |타입|설명|
+|:-|:-|
 ProtoBuf.IExtension	
 구현
 ProtoBuf.IExtensible

@@ -41,6 +41,7 @@ public bool autoRun { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 controls
 #### 선언
@@ -50,6 +51,7 @@ public List<TGameLayoutControl> controls { get; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Collections.Generic.List<network.TGameLayoutControl>	
 height
 #### 선언
@@ -59,6 +61,7 @@ public int height { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 id
 #### 선언
@@ -68,6 +71,7 @@ public int id { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 landscape
 #### 선언
@@ -77,6 +81,7 @@ public bool landscape { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 name
 #### 선언
@@ -86,6 +91,7 @@ public string name { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 width
 #### 선언
@@ -95,6 +101,7 @@ public int width { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
@@ -107,6 +114,7 @@ System.Boolean	createIfMissing
 반환
 
 |타입|설명|
+|:-|:-|
 ProtoBuf.IExtension	
 구현
 ProtoBuf.IExtensible

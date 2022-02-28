@@ -41,6 +41,7 @@ public string actionName { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 collisionAnimationID
 #### 선언
@@ -50,6 +51,7 @@ public int collisionAnimationID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 collisionOffsetX
 #### 선언
@@ -59,6 +61,7 @@ public float collisionOffsetX { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 collisionOffsetY
 #### 선언
@@ -68,6 +71,7 @@ public float collisionOffsetY { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 collisionRadius
 #### 선언
@@ -77,6 +81,7 @@ public float collisionRadius { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 collisionWall
 #### 선언
@@ -86,6 +91,7 @@ public bool collisionWall { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 deleteOnCollision
 #### 선언
@@ -95,6 +101,7 @@ public bool deleteOnCollision { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 directionSync
 #### 선언
@@ -104,6 +111,7 @@ public bool directionSync { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 endColor
 #### 선언
@@ -113,6 +121,7 @@ public uint endColor { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.UInt32	
 endScaleX
 #### 선언
@@ -122,6 +131,7 @@ public float endScaleX { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 endScaleY
 #### 선언
@@ -131,6 +141,7 @@ public float endScaleY { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 followUnit
 #### 선언
@@ -140,6 +151,7 @@ public bool followUnit { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 gravityX
 #### 선언
@@ -149,6 +161,7 @@ public float gravityX { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 gravityY
 #### 선언
@@ -158,6 +171,7 @@ public float gravityY { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 includeEnemy
 #### 선언
@@ -167,6 +181,7 @@ public bool includeEnemy { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 includeSameTeam
 #### 선언
@@ -176,6 +191,7 @@ public bool includeSameTeam { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 includeSelf
 #### 선언
@@ -185,6 +201,7 @@ public bool includeSelf { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 lifetime
 #### 선언
@@ -194,6 +211,7 @@ public float lifetime { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 maxCollisions
 #### 선언
@@ -203,6 +221,7 @@ public int maxCollisions { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 moveSpeedX
 #### 선언
@@ -212,6 +231,7 @@ public float moveSpeedX { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 moveSpeedY
 #### 선언
@@ -221,6 +241,7 @@ public float moveSpeedY { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 playCommonEventID
 #### 선언
@@ -230,6 +251,7 @@ public int playCommonEventID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 randomOffsetX
 #### 선언
@@ -239,6 +261,7 @@ public float randomOffsetX { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 randomOffsetY
 #### 선언
@@ -248,6 +271,7 @@ public float randomOffsetY { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 rotationByFront
 #### 선언
@@ -257,6 +281,7 @@ public float rotationByFront { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 rotationToDir
 #### 선언
@@ -266,6 +291,7 @@ public bool rotationToDir { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 sortingBack
 #### 선언
@@ -275,6 +301,7 @@ public bool sortingBack { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 soundID
 #### 선언
@@ -284,6 +311,7 @@ public string soundID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 startColor
 #### 선언
@@ -293,6 +321,7 @@ public uint startColor { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.UInt32	
 startDirOffsetX
 #### 선언
@@ -302,6 +331,7 @@ public float startDirOffsetX { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 startDirOffsetY
 #### 선언
@@ -311,6 +341,7 @@ public float startDirOffsetY { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 startOffsetX
 #### 선언
@@ -320,6 +351,7 @@ public float startOffsetX { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 startOffsetY
 #### 선언
@@ -329,6 +361,7 @@ public float startOffsetY { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 startScaleX
 #### 선언
@@ -338,6 +371,7 @@ public float startScaleX { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 startScaleY
 #### 선언
@@ -347,6 +381,7 @@ public float startScaleY { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 targetFlashColor
 #### 선언
@@ -356,6 +391,7 @@ public uint targetFlashColor { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.UInt32	
 targetFlashTime
 #### 선언
@@ -365,6 +401,7 @@ public float targetFlashTime { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 time
 #### 선언
@@ -374,6 +411,7 @@ public float time { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 type
 #### 선언
@@ -383,6 +421,7 @@ public int type { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
@@ -395,6 +434,7 @@ System.Boolean	createIfMissing
 반환
 
 |타입|설명|
+|:-|:-|
 ProtoBuf.IExtension	
 구현
 ProtoBuf.IExtensible

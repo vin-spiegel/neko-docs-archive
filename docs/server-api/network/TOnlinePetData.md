@@ -41,6 +41,7 @@ public int characterID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 exp
 #### 선언
@@ -50,6 +51,7 @@ public long exp { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int64	
 id
 #### 선언
@@ -59,6 +61,7 @@ public int id { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 jobID
 #### 선언
@@ -68,6 +71,7 @@ public int jobID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 level
 #### 선언
@@ -77,6 +81,7 @@ public int level { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 name
 #### 선언
@@ -86,6 +91,7 @@ public string name { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
@@ -98,6 +104,7 @@ System.Boolean	createIfMissing
 반환
 
 |타입|설명|
+|:-|:-|
 ProtoBuf.IExtension	
 구현
 ProtoBuf.IExtensible

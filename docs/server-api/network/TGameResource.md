@@ -41,6 +41,7 @@ public List<TGameSpriteAction> actions { get; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Collections.Generic.List<TGameSpriteAction>	
 ambientIntansity
 #### 선언
@@ -50,6 +51,7 @@ public int ambientIntansity { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 ambientOffsetX
 #### 선언
@@ -59,6 +61,7 @@ public int ambientOffsetX { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 ambientOffsetY
 #### 선언
@@ -68,6 +71,7 @@ public int ambientOffsetY { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 collisionHeight
 #### 선언
@@ -77,6 +81,7 @@ public int collisionHeight { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 collisionOffsetX
 #### 선언
@@ -86,6 +91,7 @@ public int collisionOffsetX { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 collisionOffsetY
 #### 선언
@@ -95,6 +101,7 @@ public int collisionOffsetY { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 collisionWidth
 #### 선언
@@ -104,6 +111,7 @@ public int collisionWidth { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 enableNineSliced
 #### 선언
@@ -113,6 +121,7 @@ public bool enableNineSliced { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 folder
 #### 선언
@@ -122,6 +131,7 @@ public string folder { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 id
 #### 선언
@@ -131,6 +141,7 @@ public string id { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 name
 #### 선언
@@ -140,6 +151,7 @@ public string name { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 nameOffsetX
 #### 선언
@@ -149,6 +161,7 @@ public int nameOffsetX { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 nameOffsetY
 #### 선언
@@ -158,6 +171,7 @@ public int nameOffsetY { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 nameScale
 #### 선언
@@ -167,6 +181,7 @@ public float nameScale { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 spriteBorderBottom
 #### 선언
@@ -176,6 +191,7 @@ public int spriteBorderBottom { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 spriteBorderLeft
 #### 선언
@@ -185,6 +201,7 @@ public int spriteBorderLeft { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 spriteBorderRight
 #### 선언
@@ -194,6 +211,7 @@ public int spriteBorderRight { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 spriteBorderTop
 #### 선언
@@ -203,6 +221,7 @@ public int spriteBorderTop { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 spriteCellX
 #### 선언
@@ -212,6 +231,7 @@ public int spriteCellX { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 spriteCellY
 #### 선언
@@ -221,6 +241,7 @@ public int spriteCellY { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 spriteType
 #### 선언
@@ -230,6 +251,7 @@ public int spriteType { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 type
 #### 선언
@@ -239,6 +261,7 @@ public int type { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
@@ -251,6 +274,7 @@ System.Boolean	createIfMissing
 반환
 
 |타입|설명|
+|:-|:-|
 ProtoBuf.IExtension	
 구현
 ProtoBuf.IExtensible

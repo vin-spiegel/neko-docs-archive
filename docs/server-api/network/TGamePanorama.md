@@ -41,6 +41,7 @@ public float distanceX { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 distanceY
 #### 선언
@@ -50,6 +51,7 @@ public float distanceY { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 gapX
 #### 선언
@@ -59,6 +61,7 @@ public float gapX { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 gapY
 #### 선언
@@ -68,6 +71,7 @@ public float gapY { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 loopX
 #### 선언
@@ -77,6 +81,7 @@ public bool loopX { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 loopY
 #### 선언
@@ -86,6 +91,7 @@ public bool loopY { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 offsetX
 #### 선언
@@ -95,6 +101,7 @@ public float offsetX { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 offsetY
 #### 선언
@@ -104,6 +111,7 @@ public float offsetY { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 scaleX
 #### 선언
@@ -113,6 +121,7 @@ public float scaleX { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 scaleY
 #### 선언
@@ -122,6 +131,7 @@ public float scaleY { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
@@ -134,6 +144,7 @@ System.Boolean	createIfMissing
 반환
 
 |타입|설명|
+|:-|:-|
 ProtoBuf.IExtension	
 구현
 ProtoBuf.IExtensible

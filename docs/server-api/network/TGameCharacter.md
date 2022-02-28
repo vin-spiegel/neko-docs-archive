@@ -41,6 +41,7 @@ public bool collision { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 footstepSoundID
 #### 선언
@@ -50,6 +51,7 @@ public string footstepSoundID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 imageID
 #### 선언
@@ -59,6 +61,7 @@ public string imageID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 jumpForce
 #### 선언
@@ -68,6 +71,7 @@ public float jumpForce { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Single	
 l_name
 #### 선언
@@ -77,6 +81,7 @@ public LString l_name { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 network.LString	
 memo
 #### 선언
@@ -86,6 +91,7 @@ public string memo { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 moveSpeed
 #### 선언
@@ -95,6 +101,7 @@ public int moveSpeed { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 name
 #### 선언
@@ -104,6 +111,7 @@ public string name { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 traits
 #### 선언
@@ -113,6 +121,7 @@ public List<TGameMapEventCommand> traits { get; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Collections.Generic.List<network.TGameMapEventCommand>	
 type
 #### 선언
@@ -122,6 +131,7 @@ public int type { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 useCloudCharacter
 #### 선언
@@ -131,6 +141,7 @@ public bool useCloudCharacter { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
@@ -143,6 +154,7 @@ System.Boolean	createIfMissing
 반환
 
 |타입|설명|
+|:-|:-|
 ProtoBuf.IExtension	
 구현
 ProtoBuf.IExtensible

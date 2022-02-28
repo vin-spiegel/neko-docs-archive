@@ -41,6 +41,7 @@ public int height { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 width
 #### 선언
@@ -50,6 +51,7 @@ public int width { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 x
 #### 선언
@@ -59,6 +61,7 @@ public int x { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 y
 #### 선언
@@ -68,6 +71,7 @@ public int y { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
@@ -80,6 +84,7 @@ System.Boolean	createIfMissing
 반환
 
 |타입|설명|
+|:-|:-|
 ProtoBuf.IExtension	
 구현
 ProtoBuf.IExtensible

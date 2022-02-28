@@ -41,6 +41,7 @@ public int channelCount { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 children
 #### 선언
@@ -50,6 +51,7 @@ public List<TGameMapStub> children { get; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Collections.Generic.List<TGameMapStub>	
 id
 #### 선언
@@ -59,6 +61,7 @@ public int id { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 isFolder
 #### 선언
@@ -68,6 +71,7 @@ public bool isFolder { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 maxPlayers
 #### 선언
@@ -77,6 +81,7 @@ public int maxPlayers { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 name
 #### 선언
@@ -86,6 +91,7 @@ public string name { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 oldID
 #### 선언
@@ -95,6 +101,7 @@ public string oldID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.String	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
@@ -107,6 +114,7 @@ System.Boolean	createIfMissing
 반환
 
 |타입|설명|
+|:-|:-|
 ProtoBuf.IExtension	
 구현
 ProtoBuf.IExtensible

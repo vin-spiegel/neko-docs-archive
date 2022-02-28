@@ -41,6 +41,7 @@ public int count { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 dataID
 #### 선언
@@ -50,6 +51,7 @@ public int dataID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 id
 #### 선언
@@ -59,6 +61,7 @@ public long id { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int64	
 index
 #### 선언
@@ -68,6 +71,7 @@ public int index { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 inTrade
 #### 선언
@@ -77,6 +81,7 @@ public bool inTrade { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 level
 #### 선언
@@ -86,6 +91,7 @@ public int level { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int32	
 locked
 #### 선언
@@ -95,6 +101,7 @@ public bool locked { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 nftTokenID
 #### 선언
@@ -104,6 +111,7 @@ public long nftTokenID { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Int64	
 options
 #### 선언
@@ -113,6 +121,7 @@ public List<TItemOption> options { get; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Collections.Generic.List<TItemOption>	
 useCloudResource
 #### 선언
@@ -122,6 +131,7 @@ public bool useCloudResource { get; set; }
 #### 프로퍼티 값
 
 |타입|설명|
+|:-|:-|
 System.Boolean	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
@@ -134,6 +144,7 @@ System.Boolean	createIfMissing
 반환
 
 |타입|설명|
+|:-|:-|
 ProtoBuf.IExtension	
 구현
 ProtoBuf.IExtensible
