@@ -28,6 +28,7 @@ nav_order: 15
 [Serializable]
 public class TGameSkill : IExtensible
 ## 생성자
+---
 TGameSkill()
 
 #### 선언
@@ -93,7 +94,7 @@ public float coolTime { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
+|System.Single|	
 criticalPercent
 
 #### 선언
@@ -105,7 +106,7 @@ public float criticalPercent { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
+|System.Single|	
 damageFormula
 
 #### 선언
@@ -177,7 +178,7 @@ public LString l_desc { get; set; }
 
 |타입|설명|
 |:-|:-|
-network.LString	
+|network.LString|	
 l_name
 
 #### 선언
@@ -189,7 +190,7 @@ public LString l_name { get; set; }
 
 |타입|설명|
 |:-|:-|
-network.LString	
+|network.LString|	
 memo
 
 #### 선언
@@ -261,7 +262,7 @@ public float sturnTime { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
+|System.Single|	
 traits
 
 #### 선언
@@ -310,7 +311,8 @@ public int useType { get; set; }
 |타입|설명|
 |:-|:-|
 |System.Int32|	
-명시적 인터페이스 구현
+## 명시적 인터페이스 구현
+---
 IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
@@ -321,14 +323,20 @@ IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 |타입|이름|설명|
 |:-|:-|:-|
 |System.Boolean|	createIfMissing	
-반환
+
+#### 반환
 
 |타입|설명|
 |:-|:-|
-ProtoBuf.IExtension	
-구현
+|ProtoBuf.IExtension|
+
+## 구현
 ProtoBuf.IExtensible
-확장 함수
+{: .text-zeta}
+## 확장 함수
 Utility.Clone<T>(T)
-Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
-Utility.DumpProtobuf<T>(T, |System.Boolean|)
+{: .text-zeta}
+Utility.DumpProtobufBase64<T>(T, System.Boolean)
+{: .text-zeta}
+Utility.DumpProtobuf<T>(T, System.Boolean)
+{: .text-zeta}

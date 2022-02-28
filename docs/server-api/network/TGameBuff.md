@@ -27,14 +27,18 @@ nav_order: 3
 ```cs
 [Serializable]
 public class TGameBuff : IExtensible
+```
 ## 생성자
-TGameBuff()
+---
+## TGameBuff()
 
 #### 선언
 ```cs
 public TGameBuff()
-프로퍼티
-damageFormula
+```
+## 프로퍼티
+---
+## damageFormula
 
 #### 선언
 ```cs
@@ -45,8 +49,7 @@ public string damageFormula { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-damageType
+|System.String|damageType|
 
 #### 선언
 ```cs
@@ -57,8 +60,7 @@ public int damageType { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-debuffCondition
+|System.Int32|debuffCondition|
 
 #### 선언
 ```cs
@@ -69,8 +71,7 @@ public int debuffCondition { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-debuffTime
+|System.Int32|debuffTime|
 
 #### 선언
 ```cs
@@ -81,8 +82,7 @@ public int debuffTime { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-desc
+|System.Int32|desc|
 
 #### 선언
 ```cs
@@ -93,8 +93,7 @@ public string desc { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-hasCritical
+|System.String|hasCritical|
 
 #### 선언
 ```cs
@@ -105,8 +104,7 @@ public bool hasCritical { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-iconID
+|System.Boolean|iconID|
 
 #### 선언
 ```cs
@@ -117,8 +115,7 @@ public string iconID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-isRemoveBuff
+|System.String|isRemoveBuff|
 
 #### 선언
 ```cs
@@ -129,8 +126,7 @@ public bool isRemoveBuff { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-l_desc
+|System.Boolean|l_desc|
 
 #### 선언
 ```cs
@@ -141,8 +137,7 @@ public LString l_desc { get; set; }
 
 |타입|설명|
 |:-|:-|
-network.LString	
-l_name
+|network.LString|l_name|
 
 #### 선언
 ```cs
@@ -153,8 +148,7 @@ public LString l_name { get; set; }
 
 |타입|설명|
 |:-|:-|
-network.LString	
-memo
+|network.LString|memo|
 
 #### 선언
 ```cs
@@ -165,8 +159,7 @@ public string memo { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-name
+|System.String|name|
 
 #### 선언
 ```cs
@@ -177,8 +170,7 @@ public string name { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-oldTraits
+|System.String|oldTraits|
 
 #### 선언
 ```cs
@@ -189,8 +181,7 @@ public List<TGameTrait> oldTraits { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<network.TGameTrait>	
-showAnimation
+|System.Collections.Generic.List<network.TGameTrait>|showAnimation|
 
 #### 선언
 ```cs
@@ -201,8 +192,7 @@ public bool showAnimation { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-showAnimationID
+|System.Boolean|showAnimationID|
 
 #### 선언
 ```cs
@@ -213,8 +203,7 @@ public int showAnimationID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-tickTime
+|System.Int32|tickTime|
 
 #### 선언
 ```cs
@@ -225,8 +214,7 @@ public float tickTime { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-traits
+|System.Single|traits|
 
 #### 선언
 ```cs
@@ -237,8 +225,7 @@ public List<TGameMapEventCommand> traits { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<network.TGameMapEventCommand>	
-type
+|System.Collections.Generic.List<network.TGameMapEventCommand>|type|
 
 #### 선언
 ```cs
@@ -250,25 +237,34 @@ public int type { get; set; }
 |타입|설명|
 |:-|:-|
 |System.Int32|	
-명시적 인터페이스 구현
-IExtensible.GetExtensionObject(Boolean)
+
+## 명시적 인터페이스 구현
+---
+## IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 ```
 ### 매개 변수 (인자)
+
 |타입|이름|설명|
 |:-|:-|:-|
-|System.Boolean|	createIfMissing	
-반환
+|System.Boolean|createIfMissing|
+
+#### 반환
 
 |타입|설명|
 |:-|:-|
-ProtoBuf.IExtension	
-구현
+|ProtoBuf.IExtension|
+
+## 구현
 ProtoBuf.IExtensible
-확장 함수
+{: .text-zeta}
+## 확장 함수
 Utility.Clone<T>(T)
-Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
-Utility.DumpProtobuf<T>(T, |System.Boolean|)
+{: .text-zeta}
+Utility.DumpProtobufBase64<T>(T, System.Boolean)
+{: .text-zeta}
+Utility.DumpProtobuf<T>(T, System.Boolean)
+{: .text-zeta}

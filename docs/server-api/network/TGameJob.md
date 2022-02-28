@@ -27,14 +27,18 @@ nav_order: 9
 ```cs
 [Serializable]
 public class TGameJob : IExtensible
+```
 ## 생성자
-TGameJob()
+---
+## TGameJob()
 
 #### 선언
 ```cs
 public TGameJob()
-프로퍼티
-agilities
+```
+## 프로퍼티
+---
+## agilities
 
 #### 선언
 ```cs
@@ -45,8 +49,7 @@ public List<int> agilities { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<|System.Int32|>	
-attacks
+|System.Collections.Generic.List<System.Int32>|attacks|
 
 #### 선언
 ```cs
@@ -57,8 +60,7 @@ public List<int> attacks { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<|System.Int32|>	
-defenses
+|System.Collections.Generic.List<System.Int32>|defenses|
 
 #### 선언
 ```cs
@@ -69,8 +71,7 @@ public List<int> defenses { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<|System.Int32|>	
-exps
+|System.Collections.Generic.List<System.Int32>|exps|
 
 #### 선언
 ```cs
@@ -81,8 +82,7 @@ public List<int> exps { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<|System.Int32|>	
-l_name
+|System.Collections.Generic.List<System.Int32>|l_name|
 
 #### 선언
 ```cs
@@ -93,8 +93,7 @@ public LString l_name { get; set; }
 
 |타입|설명|
 |:-|:-|
-network.LString	
-learnSkills
+|network.LString|learnSkills|
 
 #### 선언
 ```cs
@@ -105,8 +104,7 @@ public List<TSkill> learnSkills { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<network.TSkill>	
-luckies
+|System.Collections.Generic.List<network.TSkill>|luckies|
 
 #### 선언
 ```cs
@@ -117,8 +115,7 @@ public List<int> luckies { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<|System.Int32|>	
-magicAttacks
+|System.Collections.Generic.List<System.Int32>|magicAttacks|
 
 #### 선언
 ```cs
@@ -129,8 +126,7 @@ public List<int> magicAttacks { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<|System.Int32|>	
-magicDefenses
+|System.Collections.Generic.List<System.Int32>|magicDefenses|
 
 #### 선언
 ```cs
@@ -141,8 +137,7 @@ public List<int> magicDefenses { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<|System.Int32|>	
-maxHPs
+|System.Collections.Generic.List<System.Int32>|maxHPs|
 
 #### 선언
 ```cs
@@ -153,8 +148,7 @@ public List<int> maxHPs { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<|System.Int32|>	
-maxLevel
+|System.Collections.Generic.List<System.Int32>|maxLevel|
 
 #### 선언
 ```cs
@@ -165,8 +159,7 @@ public int maxLevel { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-maxMPs
+|System.Int32|maxMPs|
 
 #### 선언
 ```cs
@@ -177,8 +170,7 @@ public List<int> maxMPs { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<|System.Int32|>	
-memo
+|System.Collections.Generic.List<System.Int32>|memo|
 
 #### 선언
 ```cs
@@ -189,8 +181,7 @@ public string memo { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-name
+|System.String|name|
 
 #### 선언
 ```cs
@@ -201,8 +192,7 @@ public string name { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-oldTraits
+|System.String|oldTraits|
 
 #### 선언
 ```cs
@@ -213,8 +203,7 @@ public List<TGameTrait> oldTraits { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<network.TGameTrait>	
-traits
+|System.Collections.Generic.List<network.TGameTrait>|traits|
 
 #### 선언
 ```cs
@@ -225,8 +214,10 @@ public List<TGameMapEventCommand> traits { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<network.TGameMapEventCommand>	
-명시적 인터페이스 구현
+|System.Collections.Generic.List<network.TGameMapEventCommand>|
+
+## 명시적 인터페이스 구현
+---
 IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
@@ -234,17 +225,24 @@ IExtensible.GetExtensionObject(Boolean)
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 ```
 ### 매개 변수 (인자)
+
 |타입|이름|설명|
 |:-|:-|:-|
-|System.Boolean|	createIfMissing	
-반환
+|System.Boolean|createIfMissing	|
+
+#### 반환
 
 |타입|설명|
 |:-|:-|
-ProtoBuf.IExtension	
-구현
+|ProtoBuf.IExtension|
+
+## 구현
 ProtoBuf.IExtensible
-확장 함수
+{: .text-zeta}
+## 확장 함수
 Utility.Clone<T>(T)
-Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
-Utility.DumpProtobuf<T>(T, |System.Boolean|)
+{: .text-zeta}
+Utility.DumpProtobufBase64<T>(T, System.Boolean)
+{: .text-zeta}
+Utility.DumpProtobuf<T>(T, System.Boolean)
+{: .text-zeta}

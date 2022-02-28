@@ -27,14 +27,18 @@ nav_order: 2
 ```cs
 [Serializable]
 public class TGameAnimationCommand : IExtensible
+```
 ## 생성자
-TGameAnimationCommand()
+---
+## TGameAnimationCommand()
 
 #### 선언
 ```cs
 public TGameAnimationCommand()
-프로퍼티
-actionName
+```
+## 프로퍼티
+---
+## actionName
 
 #### 선언
 ```cs
@@ -45,8 +49,7 @@ public string actionName { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-collisionAnimationID
+|System.String|collisionAnimationID|
 
 #### 선언
 ```cs
@@ -57,8 +60,7 @@ public int collisionAnimationID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-collisionOffsetX
+|System.Int32|collisionOffsetX|
 
 #### 선언
 ```cs
@@ -69,7 +71,7 @@ public float collisionOffsetX { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
+|System.Single|	
 collisionOffsetY
 
 #### 선언
@@ -81,8 +83,7 @@ public float collisionOffsetY { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-collisionRadius
+|System.Single|collisionRadius|
 
 #### 선언
 ```cs
@@ -93,8 +94,7 @@ public float collisionRadius { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-collisionWall
+|System.Single|collisionWall|
 
 #### 선언
 ```cs
@@ -105,8 +105,7 @@ public bool collisionWall { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-deleteOnCollision
+|System.Boolean|deleteOnCollision|
 
 #### 선언
 ```cs
@@ -117,8 +116,7 @@ public bool deleteOnCollision { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-directionSync
+|System.Boolean|directionSync|
 
 #### 선언
 ```cs
@@ -129,8 +127,7 @@ public bool directionSync { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-endColor
+|System.Boolean|endColor|
 
 #### 선언
 ```cs
@@ -141,8 +138,7 @@ public uint endColor { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.UInt32|	
-endScaleX
+|System.UInt32|endScaleX|
 
 #### 선언
 ```cs
@@ -153,8 +149,7 @@ public float endScaleX { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-endScaleY
+|System.Single|endScaleY|
 
 #### 선언
 ```cs
@@ -165,8 +160,7 @@ public float endScaleY { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-followUnit
+|System.Single|followUnit|
 
 #### 선언
 ```cs
@@ -177,8 +171,7 @@ public bool followUnit { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-gravityX
+|System.Boolean|gravityX|
 
 #### 선언
 ```cs
@@ -189,8 +182,7 @@ public float gravityX { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-gravityY
+|System.Single|gravityY|
 
 #### 선언
 ```cs
@@ -201,8 +193,7 @@ public float gravityY { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-includeEnemy
+|System.Single|includeEnemy|
 
 #### 선언
 ```cs
@@ -213,8 +204,7 @@ public bool includeEnemy { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-includeSameTeam
+|System.Boolean|includeSameTeam|
 
 #### 선언
 ```cs
@@ -225,8 +215,7 @@ public bool includeSameTeam { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-includeSelf
+|System.Boolean|includeSelf|
 
 #### 선언
 ```cs
@@ -237,8 +226,7 @@ public bool includeSelf { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-lifetime
+|System.Boolean|lifetime|
 
 #### 선언
 ```cs
@@ -249,8 +237,7 @@ public float lifetime { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-maxCollisions
+|System.Single|maxCollisions|
 
 #### 선언
 ```cs
@@ -261,8 +248,7 @@ public int maxCollisions { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-moveSpeedX
+|System.Int32|moveSpeedX|
 
 #### 선언
 ```cs
@@ -273,8 +259,7 @@ public float moveSpeedX { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-moveSpeedY
+|System.Single|moveSpeedY|
 
 #### 선언
 ```cs
@@ -285,8 +270,7 @@ public float moveSpeedY { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-playCommonEventID
+|System.Single|playCommonEventID|
 
 #### 선언
 ```cs
@@ -297,8 +281,7 @@ public int playCommonEventID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-randomOffsetX
+|System.Int32|randomOffsetX|
 
 #### 선언
 ```cs
@@ -309,8 +292,7 @@ public float randomOffsetX { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-randomOffsetY
+|System.Single|randomOffsetY|
 
 #### 선언
 ```cs
@@ -321,8 +303,7 @@ public float randomOffsetY { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-rotationByFront
+|System.Single|rotationByFront|
 
 #### 선언
 ```cs
@@ -333,8 +314,7 @@ public float rotationByFront { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-rotationToDir
+|System.Single|rotationToDir|
 
 #### 선언
 ```cs
@@ -345,8 +325,7 @@ public bool rotationToDir { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-sortingBack
+|System.Boolean|sortingBack|
 
 #### 선언
 ```cs
@@ -357,8 +336,7 @@ public bool sortingBack { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-soundID
+|System.Boolean|soundID|
 
 #### 선언
 ```cs
@@ -369,8 +347,7 @@ public string soundID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-startColor
+|System.String|startColor|
 
 #### 선언
 ```cs
@@ -381,8 +358,7 @@ public uint startColor { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.UInt32|	
-startDirOffsetX
+|System.UInt32|startDirOffsetX|
 
 #### 선언
 ```cs
@@ -393,8 +369,7 @@ public float startDirOffsetX { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-startDirOffsetY
+|System.Single|startDirOffsetY|
 
 #### 선언
 ```cs
@@ -405,8 +380,7 @@ public float startDirOffsetY { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-startOffsetX
+|System.Single|startOffsetX|
 
 #### 선언
 ```cs
@@ -417,8 +391,7 @@ public float startOffsetX { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-startOffsetY
+|System.Single|startOffsetY|
 
 #### 선언
 ```cs
@@ -429,8 +402,7 @@ public float startOffsetY { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-startScaleX
+|System.Single|startScaleX|
 
 #### 선언
 ```cs
@@ -441,8 +413,7 @@ public float startScaleX { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-startScaleY
+|System.Single|startScaleY|
 
 #### 선언
 ```cs
@@ -453,8 +424,7 @@ public float startScaleY { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-targetFlashColor
+|System.Single|targetFlashColor|
 
 #### 선언
 ```cs
@@ -465,8 +435,7 @@ public uint targetFlashColor { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.UInt32|	
-targetFlashTime
+|System.UInt32|targetFlashTime|
 
 #### 선언
 ```cs
@@ -477,8 +446,7 @@ public float targetFlashTime { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-time
+|System.Single|time|
 
 #### 선언
 ```cs
@@ -489,8 +457,7 @@ public float time { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-type
+|System.Single|type|
 
 #### 선언
 ```cs
@@ -501,26 +468,38 @@ public int type { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-명시적 인터페이스 구현
-IExtensible.GetExtensionObject(Boolean)
+|System.Int32|
+
+## 명시적 인터페이스 구현
+---
+## IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 ```
 ### 매개 변수 (인자)
+
 |타입|이름|설명|
 |:-|:-|:-|
-|System.Boolean|	createIfMissing	
-반환
+|System.Boolean|createIfMissing|
+
+#### 반환
 
 |타입|설명|
 |:-|:-|
-ProtoBuf.IExtension	
-구현
+|ProtoBuf.IExtension|
+
+## 구현
 ProtoBuf.IExtensible
-확장 함수
+{: .text-zeta}
+
+## 확장 함수
 Utility.Clone<T>(T)
+{: .text-zeta}
+
 Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
+{: .text-zeta}
+
 Utility.DumpProtobuf<T>(T, |System.Boolean|)
+{: .text-zeta}

@@ -27,14 +27,18 @@ nav_order: 8
 ```cs
 [Serializable]
 public class TGameItem : IExtensible
+```
 ## 생성자
-TGameItem()
+---
+## TGameItem()
 
 #### 선언
 ```cs
 public TGameItem()
-프로퍼티
-actionName
+```
+## 프로퍼티
+---
+## actionName
 
 #### 선언
 ```cs
@@ -45,8 +49,7 @@ public string actionName { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-agility
+|System.String|agility|
 
 #### 선언
 ```cs
@@ -57,8 +60,7 @@ public int agility { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-animationID
+|System.Int32|animationID|
 
 #### 선언
 ```cs
@@ -69,8 +71,7 @@ public int animationID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-attack
+|System.Int32|attack|
 
 #### 선언
 ```cs
@@ -81,8 +82,7 @@ public int attack { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-buyerPrice
+|System.Int32|buyerPrice|
 
 #### 선언
 ```cs
@@ -93,8 +93,7 @@ public int buyerPrice { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-canDrop
+|System.Int32|canDrop|
 
 #### 선언
 ```cs
@@ -105,8 +104,7 @@ public bool canDrop { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-canExchangeTrade
+|System.Boolean|canExchangeTrade|
 
 #### 선언
 ```cs
@@ -117,8 +115,7 @@ public bool canExchangeTrade { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-canSell
+|System.Boolean|canSell|
 
 #### 선언
 ```cs
@@ -129,8 +126,7 @@ public bool canSell { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-canStorage
+|System.Boolean|canStorage|
 
 #### 선언
 ```cs
@@ -141,8 +137,7 @@ public bool canStorage { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-canTrade
+|System.Boolean|canTrade|
 
 #### 선언
 ```cs
@@ -153,8 +148,7 @@ public bool canTrade { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-coolTime
+|System.Boolean|coolTime|
 
 #### 선언
 ```cs
@@ -165,8 +159,7 @@ public float coolTime { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-damageFormula
+|System.Single|damageFormula|
 
 #### 선언
 ```cs
@@ -177,8 +170,7 @@ public string damageFormula { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-damageType
+|System.String|damageType|
 
 #### 선언
 ```cs
@@ -189,8 +181,7 @@ public int damageType { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-defense
+|System.Int32|defense|
 
 #### 선언
 ```cs
@@ -201,8 +192,7 @@ public int defense { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-desc
+|System.Int32|desc|
 
 #### 선언
 ```cs
@@ -213,8 +203,7 @@ public string desc { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-hasCritical
+|System.String|hasCritical|
 
 #### 선언
 ```cs
@@ -225,8 +214,7 @@ public bool hasCritical { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-imageID
+|System.Boolean|imageID|
 
 #### 선언
 ```cs
@@ -237,8 +225,7 @@ public string imageID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-l_desc
+|System.String|l_desc|
 
 #### 선언
 ```cs
@@ -249,8 +236,7 @@ public LString l_desc { get; set; }
 
 |타입|설명|
 |:-|:-|
-network.LString	
-l_name
+|network.LString|l_name|
 
 #### 선언
 ```cs
@@ -261,8 +247,7 @@ public LString l_name { get; set; }
 
 |타입|설명|
 |:-|:-|
-network.LString	
-lucky
+|network.LString|lucky|
 
 #### 선언
 ```cs
@@ -273,8 +258,7 @@ public int lucky { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-magicAttack
+|System.Int32|magicAttack|
 
 #### 선언
 ```cs
@@ -285,8 +269,7 @@ public int magicAttack { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-magicDefense
+|System.Int32|magicDefense|
 
 #### 선언
 ```cs
@@ -297,8 +280,7 @@ public int magicDefense { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-maxCount
+|System.Int32|maxCount|
 
 #### 선언
 ```cs
@@ -309,8 +291,7 @@ public int maxCount { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-maxHP
+|System.Int32|maxHP|
 
 #### 선언
 ```cs
@@ -321,8 +302,7 @@ public int maxHP { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-maxMP
+|System.Int32|maxMP|
 
 #### 선언
 ```cs
@@ -333,8 +313,7 @@ public int maxMP { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-memo
+|System.Int32|memo|
 
 #### 선언
 ```cs
@@ -345,8 +324,7 @@ public string memo { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-name
+|System.String|name|
 
 #### 선언
 ```cs
@@ -357,8 +335,7 @@ public string name { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-notConsumed
+|System.String|notConsumed|
 
 #### 선언
 ```cs
@@ -369,8 +346,7 @@ public bool notConsumed { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-oldTraits
+|System.Boolean|oldTraits|
 
 #### 선언
 ```cs
@@ -381,8 +357,7 @@ public List<TGameTrait> oldTraits { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<network.TGameTrait>	
-sellerPrice
+|System.Collections.Generic.List<network.TGameTrait>|sellerPrice|
 
 #### 선언
 ```cs
@@ -393,8 +368,7 @@ public int sellerPrice { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-spineImageID
+|System.Int32|spineImageID|
 
 #### 선언
 ```cs
@@ -405,8 +379,7 @@ public string spineImageID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-traits
+|System.String|traits|
 
 #### 선언
 ```cs
@@ -417,8 +390,7 @@ public List<TGameMapEventCommand> traits { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<network.TGameMapEventCommand>	
-type
+|System.Collections.Generic.List<network.TGameMapEventCommand>|type|
 
 #### 선언
 ```cs
@@ -430,26 +402,37 @@ public int type { get; set; }
 |타입|설명|
 |:-|:-|
 |System.Int32|	
-명시적 인터페이스 구현
-IExtensible.GetExtensionObject(Boolean)
+
+## 명시적 인터페이스 구현
+---
+## IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 ```
 ### 매개 변수 (인자)
+
 |타입|이름|설명|
 |:-|:-|:-|
-|System.Boolean|	createIfMissing	
-반환
+|System.Boolean|createIfMissing|
+
+#### 반환
 
 |타입|설명|
 |:-|:-|
-ProtoBuf.IExtension	
-구현
+|ProtoBuf.IExtension|
+
+
+## 구현
 ProtoBuf.IExtensible
-확장 함수
+{: .text-zeta}
+## 확장 함수
 Utility.JobCheck(network.TGameItem, |System.Int32|)
+{: .text-zeta}
 Utility.Clone<T>(T)
-Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
-Utility.DumpProtobuf<T>(T, |System.Boolean|)
+{: .text-zeta}
+Utility.DumpProtobufBase64<T>(T, System.Boolean)
+{: .text-zeta}
+Utility.DumpProtobuf<T>(T, System.Boolean)
+{: .text-zeta}

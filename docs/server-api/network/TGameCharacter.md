@@ -27,14 +27,18 @@ nav_order: 4
 ```cs
 [Serializable]
 public class TGameCharacter : IExtensible
+```
 ## 생성자
-TGameCharacter()
+---
+## TGameCharacter()
 
 #### 선언
 ```cs
 public TGameCharacter()
-프로퍼티
-collision
+```
+## 프로퍼티
+---
+## collision
 
 #### 선언
 ```cs
@@ -45,8 +49,7 @@ public bool collision { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-footstepSoundID
+|System.Boolean|footstepSoundID|
 
 #### 선언
 ```cs
@@ -57,8 +60,7 @@ public string footstepSoundID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-imageID
+|System.String|imageID|
 
 #### 선언
 ```cs
@@ -69,8 +71,7 @@ public string imageID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-jumpForce
+|System.String|jumpForce|
 
 #### 선언
 ```cs
@@ -81,8 +82,7 @@ public float jumpForce { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-l_name
+|System.Single|l_name|
 
 #### 선언
 ```cs
@@ -93,8 +93,7 @@ public LString l_name { get; set; }
 
 |타입|설명|
 |:-|:-|
-network.LString	
-memo
+|network.LString|memo|
 
 #### 선언
 ```cs
@@ -105,8 +104,7 @@ public string memo { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-moveSpeed
+|System.String|moveSpeed|
 
 #### 선언
 ```cs
@@ -117,8 +115,7 @@ public int moveSpeed { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-name
+|System.Int32|name|
 
 #### 선언
 ```cs
@@ -129,8 +126,7 @@ public string name { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-traits
+|System.String|traits|
 
 #### 선언
 ```cs
@@ -141,8 +137,7 @@ public List<TGameMapEventCommand> traits { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<network.TGameMapEventCommand>	
-type
+|System.Collections.Generic.List<network.TGameMapEventCommand>|type|
 
 #### 선언
 ```cs
@@ -153,8 +148,7 @@ public int type { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-useCloudCharacter
+|System.Int32|useCloudCharacter|
 
 #### 선언
 ```cs
@@ -166,25 +160,34 @@ public bool useCloudCharacter { get; set; }
 |타입|설명|
 |:-|:-|
 |System.Boolean|	
-명시적 인터페이스 구현
-IExtensible.GetExtensionObject(Boolean)
+
+## 명시적 인터페이스 구현
+---
+## IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 ```
 ### 매개 변수 (인자)
+
 |타입|이름|설명|
 |:-|:-|:-|
-|System.Boolean|	createIfMissing	
-반환
+|System.Boolean|createIfMissing|
+
+#### 반환
 
 |타입|설명|
 |:-|:-|
-ProtoBuf.IExtension	
-구현
+|ProtoBuf.IExtension|
+
+## 구현
 ProtoBuf.IExtensible
-확장 함수
+{: .text-zeta}
+## 확장 함수
 Utility.Clone<T>(T)
-Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
-Utility.DumpProtobuf<T>(T, |System.Boolean|)
+{: .text-zeta}
+Utility.DumpProtobufBase64<T>(T, System.Boolean)
+{: .text-zeta}
+Utility.DumpProtobuf<T>(T, System.Boolean)
+{: .text-zeta}

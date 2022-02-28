@@ -28,6 +28,7 @@ nav_order: 13
 [Serializable]
 public class TGamePanorama : IExtensible
 ## 생성자
+---
 TGamePanorama()
 
 #### 선언
@@ -45,7 +46,7 @@ public float distanceX { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
+|System.Single|	
 distanceY
 
 #### 선언
@@ -57,7 +58,7 @@ public float distanceY { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
+|System.Single|	
 gapX
 
 #### 선언
@@ -69,7 +70,7 @@ public float gapX { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
+|System.Single|	
 gapY
 
 #### 선언
@@ -81,7 +82,7 @@ public float gapY { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
+|System.Single|	
 loopX
 
 #### 선언
@@ -117,7 +118,7 @@ public float offsetX { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
+|System.Single|	
 offsetY
 
 #### 선언
@@ -129,7 +130,7 @@ public float offsetY { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
+|System.Single|	
 scaleX
 
 #### 선언
@@ -141,7 +142,7 @@ public float scaleX { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
+|System.Single|	
 scaleY
 
 #### 선언
@@ -153,8 +154,9 @@ public float scaleY { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-명시적 인터페이스 구현
+|System.Single|	
+## 명시적 인터페이스 구현
+---
 IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
@@ -165,14 +167,20 @@ IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 |타입|이름|설명|
 |:-|:-|:-|
 |System.Boolean|	createIfMissing	
-반환
+
+#### 반환
 
 |타입|설명|
 |:-|:-|
-ProtoBuf.IExtension	
-구현
+|ProtoBuf.IExtension|
+
+## 구현
 ProtoBuf.IExtensible
-확장 함수
+{: .text-zeta}
+## 확장 함수
 Utility.Clone<T>(T)
-Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
-Utility.DumpProtobuf<T>(T, |System.Boolean|)
+{: .text-zeta}
+Utility.DumpProtobufBase64<T>(T, System.Boolean)
+{: .text-zeta}
+Utility.DumpProtobuf<T>(T, System.Boolean)
+{: .text-zeta}

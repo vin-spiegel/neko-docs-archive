@@ -27,7 +27,9 @@ nav_order: 21
 ```cs
 [Serializable]
 public class TItemOption : IExtensible
+```
 ## 생성자
+---
 TItemOption()
 
 #### 선언
@@ -69,8 +71,9 @@ public float value { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Single	
-명시적 인터페이스 구현
+|System.Single|	
+## 명시적 인터페이스 구현
+---
 IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
@@ -81,14 +84,20 @@ IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 |타입|이름|설명|
 |:-|:-|:-|
 |System.Boolean|	createIfMissing	
-반환
+
+#### 반환
 
 |타입|설명|
 |:-|:-|
-ProtoBuf.IExtension	
-구현
+|ProtoBuf.IExtension|
+
+## 구현
 ProtoBuf.IExtensible
-확장 함수
+{: .text-zeta}
+## 확장 함수
 Utility.Clone<T>(T)
-Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
-Utility.DumpProtobuf<T>(T, |System.Boolean|)
+{: .text-zeta}
+Utility.DumpProtobufBase64<T>(T, System.Boolean)
+{: .text-zeta}
+Utility.DumpProtobuf<T>(T, System.Boolean)
+{: .text-zeta}

@@ -27,14 +27,17 @@ nav_order: 10
 ```cs
 [Serializable]
 public class TGameLayoutPage : IExtensible
+```
 ## 생성자
-TGameLayoutPage()
+---
+## TGameLayoutPage()
 
 #### 선언
 ```cs
 public TGameLayoutPage()
-프로퍼티
-autoRun
+```
+## 프로퍼티
+## autoRun
 
 #### 선언
 ```cs
@@ -45,8 +48,7 @@ public bool autoRun { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-controls
+|System.Boolean|controls|
 
 #### 선언
 ```cs
@@ -57,8 +59,7 @@ public List<TGameLayoutControl> controls { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<network.TGameLayoutControl>	
-height
+|System.Collections.Generic.List<network.TGameLayoutControl>|height|
 
 #### 선언
 ```cs
@@ -69,8 +70,7 @@ public int height { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-id
+|System.Int32|id|
 
 #### 선언
 ```cs
@@ -81,8 +81,7 @@ public int id { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-landscape
+|System.Int32|landscape|
 
 #### 선언
 ```cs
@@ -93,8 +92,7 @@ public bool landscape { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-name
+|System.Boolean|name|
 
 #### 선언
 ```cs
@@ -105,8 +103,7 @@ public string name { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-width
+|System.String|width|
 
 #### 선언
 ```cs
@@ -118,25 +115,34 @@ public int width { get; set; }
 |타입|설명|
 |:-|:-|
 |System.Int32|	
-명시적 인터페이스 구현
-IExtensible.GetExtensionObject(Boolean)
+
+## 명시적 인터페이스 구현
+---
+
+## IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 ```
 ### 매개 변수 (인자)
+
 |타입|이름|설명|
 |:-|:-|:-|
-|System.Boolean|	createIfMissing	
-반환
+|System.Boolean|createIfMissing|
+
+#### 반환
 
 |타입|설명|
 |:-|:-|
-ProtoBuf.IExtension	
-구현
+|ProtoBuf.IExtension|
+## 구현
 ProtoBuf.IExtensible
-확장 함수
+{: .text-zeta}
+## 확장 함수
 Utility.Clone<T>(T)
-Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
-Utility.DumpProtobuf<T>(T, |System.Boolean|)
+{: .text-zeta}
+Utility.DumpProtobufBase64<T>(T, System.Boolean)
+{: .text-zeta}
+Utility.DumpProtobuf<T>(T, System.Boolean)
+{: .text-zeta}

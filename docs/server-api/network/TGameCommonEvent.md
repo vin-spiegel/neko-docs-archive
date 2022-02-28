@@ -27,14 +27,20 @@ nav_order: 6
 ```cs
 [Serializable]
 public class TGameCommonEvent : IExtensible
+```
+
 ## 생성자
-TGameCommonEvent()
+---
+
+## TGameCommonEvent()
 
 #### 선언
 ```cs
 public TGameCommonEvent()
-프로퍼티
-conditionSwitch1ID
+```
+## 프로퍼티
+---
+## conditionSwitch1ID
 
 #### 선언
 ```cs
@@ -45,8 +51,7 @@ public int conditionSwitch1ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-l_name
+|System.Int32|l_name|
 
 #### 선언
 ```cs
@@ -57,8 +62,7 @@ public LString l_name { get; set; }
 
 |타입|설명|
 |:-|:-|
-network.LString	
-name
+|network.LString|name|
 
 #### 선언
 ```cs
@@ -69,8 +73,7 @@ public string name { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-page
+|System.String|page|
 
 #### 선언
 ```cs
@@ -81,8 +84,7 @@ public TGameMapEventPage page { get; set; }
 
 |타입|설명|
 |:-|:-|
-network.TGameMapEventPage	
-startCondition
+|network.TGameMapEventPage|startCondition|
 
 #### 선언
 ```cs
@@ -93,8 +95,7 @@ public int startCondition { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-targetPlayerSelector
+|System.Int32|targetPlayerSelector|
 
 #### 선언
 ```cs
@@ -105,9 +106,11 @@ public List<int> targetPlayerSelector { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<|System.Int32|>	
-명시적 인터페이스 구현
-IExtensible.GetExtensionObject(Boolean)
+|System.Collections.Generic.List<System.Int32>|
+
+## 명시적 인터페이스 구현
+---
+## IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
@@ -116,15 +119,20 @@ IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 ### 매개 변수 (인자)
 |타입|이름|설명|
 |:-|:-|:-|
-|System.Boolean|	createIfMissing	
-반환
+|System.Boolean|createIfMissing|
+
+#### 반환
 
 |타입|설명|
 |:-|:-|
-ProtoBuf.IExtension	
-구현
+|ProtoBuf.IExtension|
+
+## 구현
 ProtoBuf.IExtensible
-확장 함수
+## 확장 함수
 Utility.Clone<T>(T)
-Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
-Utility.DumpProtobuf<T>(T, |System.Boolean|)
+{: .text-zeta}
+Utility.DumpProtobufBase64<T>(T, System.Boolean)
+{: .text-zeta}
+Utility.DumpProtobuf<T>(T, System.Boolean)
+{: .text-zeta}

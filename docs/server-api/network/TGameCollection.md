@@ -27,14 +27,17 @@ nav_order: 5
 ```cs
 [Serializable]
 public class TGameCollection : IExtensible
+```
 ## 생성자
 TGameCollection()
 
 #### 선언
 ```cs
 public TGameCollection()
-프로퍼티
-desc
+```
+## 프로퍼티
+---
+## desc
 
 #### 선언
 ```cs
@@ -45,8 +48,7 @@ public string desc { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-iconID
+|System.String|iconID|
 
 #### 선언
 ```cs
@@ -57,8 +59,7 @@ public string iconID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-itemCount1
+|System.String|itemCount1|
 
 #### 선언
 ```cs
@@ -69,8 +70,7 @@ public int itemCount1 { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-itemCount2
+|System.Int32|itemCount2|
 
 #### 선언
 ```cs
@@ -81,8 +81,7 @@ public int itemCount2 { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-itemCount3
+|System.Int32|itemCount3|
 
 #### 선언
 ```cs
@@ -93,8 +92,7 @@ public int itemCount3 { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-itemCount4
+|System.Int32|itemCount4|
 
 #### 선언
 ```cs
@@ -105,8 +103,7 @@ public int itemCount4 { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-itemID1
+|System.Int32|itemID1|
 
 #### 선언
 ```cs
@@ -117,8 +114,7 @@ public int itemID1 { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-itemID2
+|System.Int32|itemID2|
 
 #### 선언
 ```cs
@@ -129,8 +125,7 @@ public int itemID2 { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-itemID3
+|System.Int32|itemID3|
 
 #### 선언
 ```cs
@@ -141,8 +136,7 @@ public int itemID3 { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-itemID4
+|System.Int32|itemID4|
 
 #### 선언
 ```cs
@@ -153,8 +147,7 @@ public int itemID4 { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-l_desc
+|System.Int32|l_desc|
 
 #### 선언
 ```cs
@@ -165,8 +158,7 @@ public LString l_desc { get; set; }
 
 |타입|설명|
 |:-|:-|
-network.LString	
-l_name
+|network.LString|l_name|
 
 #### 선언
 ```cs
@@ -177,8 +169,7 @@ public LString l_name { get; set; }
 
 |타입|설명|
 |:-|:-|
-network.LString	
-memo
+|network.LString|memo|
 
 #### 선언
 ```cs
@@ -189,8 +180,7 @@ public string memo { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-name
+|System.String|name|
 
 #### 선언
 ```cs
@@ -201,8 +191,7 @@ public string name { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-rewardGameMoney
+|System.String|rewardGameMoney|
 
 #### 선언
 ```cs
@@ -213,8 +202,7 @@ public long rewardGameMoney { get; set; }
 
 |타입|설명|
 |:-|:-|
-|||System.Int64|||	
-rewardItemCount1
+|System.Int64|rewardItemCount1|
 
 #### 선언
 ```cs
@@ -225,8 +213,7 @@ public int rewardItemCount1 { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-rewardItemCount2
+|System.Int32|rewardItemCount2|
 
 #### 선언
 ```cs
@@ -237,8 +224,7 @@ public int rewardItemCount2 { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-rewardItemID1
+|System.Int32|rewardItemID1|
 
 #### 선언
 ```cs
@@ -249,8 +235,7 @@ public int rewardItemID1 { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-rewardItemID2
+|System.Int32|rewardItemID2|
 
 #### 선언
 ```cs
@@ -261,8 +246,7 @@ public int rewardItemID2 { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-traits
+|System.Int32|traits|
 
 #### 선언
 ```cs
@@ -273,26 +257,36 @@ public List<TGameMapEventCommand> traits { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<network.TGameMapEventCommand>	
-명시적 인터페이스 구현
-IExtensible.GetExtensionObject(Boolean)
+|System.Collections.Generic.List<network.TGameMapEventCommand>|
+
+## 명시적 인터페이스 구현
+---
+## IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 ```
 ### 매개 변수 (인자)
+
 |타입|이름|설명|
 |:-|:-|:-|
-|System.Boolean|	createIfMissing	
-반환
+|System.Boolean|createIfMissing|
+
+#### 반환
 
 |타입|설명|
 |:-|:-|
-ProtoBuf.IExtension	
-구현
+|ProtoBuf.IExtension|
+
+## 구현
 ProtoBuf.IExtensible
-확장 함수
+{: .text-zeta}
+## 확장 함수
 Utility.Clone<T>(T)
-Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
-Utility.DumpProtobuf<T>(T, |System.Boolean|)
+{: .text-zeta}
+Utility.DumpProtobufBase64<T>(T, System.Boolean)
+{: .text-zeta}
+Utility.DumpProtobuf<T>(T, System.Boolean)
+{: .text-zeta}
+ProtoBuf.IExtensible
