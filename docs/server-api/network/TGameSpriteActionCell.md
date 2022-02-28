@@ -45,7 +45,7 @@ public int height { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 width
 
 #### 선언
@@ -57,7 +57,7 @@ public int width { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 x
 
 #### 선언
@@ -69,7 +69,7 @@ public int x { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 y
 
 #### 선언
@@ -81,16 +81,18 @@ public int y { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
-매개 변수(인자)
-타입	이름	설명
-System.Boolean	createIfMissing	
+```
+### 매개 변수 (인자)
+|타입|이름|설명|
+|:-|:-|:-|
+|System.Boolean|	createIfMissing	
 반환
 
 |타입|설명|
@@ -100,5 +102,5 @@ ProtoBuf.IExtension
 ProtoBuf.IExtensible
 확장 함수
 Utility.Clone<T>(T)
-Utility.DumpProtobufBase64<T>(T, System.Boolean)
-Utility.DumpProtobuf<T>(T, System.Boolean)
+Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
+Utility.DumpProtobuf<T>(T, |System.Boolean|)

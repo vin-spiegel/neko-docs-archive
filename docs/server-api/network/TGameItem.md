@@ -45,7 +45,7 @@ public string actionName { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 agility
 
 #### 선언
@@ -57,7 +57,7 @@ public int agility { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 animationID
 
 #### 선언
@@ -69,7 +69,7 @@ public int animationID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 attack
 
 #### 선언
@@ -81,7 +81,7 @@ public int attack { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 buyerPrice
 
 #### 선언
@@ -93,7 +93,7 @@ public int buyerPrice { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 canDrop
 
 #### 선언
@@ -105,7 +105,7 @@ public bool canDrop { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 canExchangeTrade
 
 #### 선언
@@ -117,7 +117,7 @@ public bool canExchangeTrade { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 canSell
 
 #### 선언
@@ -129,7 +129,7 @@ public bool canSell { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 canStorage
 
 #### 선언
@@ -141,7 +141,7 @@ public bool canStorage { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 canTrade
 
 #### 선언
@@ -153,7 +153,7 @@ public bool canTrade { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 coolTime
 
 #### 선언
@@ -177,7 +177,7 @@ public string damageFormula { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 damageType
 
 #### 선언
@@ -189,7 +189,7 @@ public int damageType { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 defense
 
 #### 선언
@@ -201,7 +201,7 @@ public int defense { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 desc
 
 #### 선언
@@ -213,7 +213,7 @@ public string desc { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 hasCritical
 
 #### 선언
@@ -225,7 +225,7 @@ public bool hasCritical { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 imageID
 
 #### 선언
@@ -237,7 +237,7 @@ public string imageID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 l_desc
 
 #### 선언
@@ -273,7 +273,7 @@ public int lucky { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 magicAttack
 
 #### 선언
@@ -285,7 +285,7 @@ public int magicAttack { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 magicDefense
 
 #### 선언
@@ -297,7 +297,7 @@ public int magicDefense { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 maxCount
 
 #### 선언
@@ -309,7 +309,7 @@ public int maxCount { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 maxHP
 
 #### 선언
@@ -321,7 +321,7 @@ public int maxHP { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 maxMP
 
 #### 선언
@@ -333,7 +333,7 @@ public int maxMP { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 memo
 
 #### 선언
@@ -345,7 +345,7 @@ public string memo { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 name
 
 #### 선언
@@ -357,7 +357,7 @@ public string name { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 notConsumed
 
 #### 선언
@@ -369,7 +369,7 @@ public bool notConsumed { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 oldTraits
 
 #### 선언
@@ -393,7 +393,7 @@ public int sellerPrice { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 spineImageID
 
 #### 선언
@@ -405,7 +405,7 @@ public string spineImageID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 traits
 
 #### 선언
@@ -429,16 +429,18 @@ public int type { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
-매개 변수(인자)
-타입	이름	설명
-System.Boolean	createIfMissing	
+```
+### 매개 변수 (인자)
+|타입|이름|설명|
+|:-|:-|:-|
+|System.Boolean|	createIfMissing	
 반환
 
 |타입|설명|
@@ -447,7 +449,7 @@ ProtoBuf.IExtension
 구현
 ProtoBuf.IExtensible
 확장 함수
-Utility.JobCheck(network.TGameItem, System.Int32)
+Utility.JobCheck(network.TGameItem, |System.Int32|)
 Utility.Clone<T>(T)
-Utility.DumpProtobufBase64<T>(T, System.Boolean)
-Utility.DumpProtobuf<T>(T, System.Boolean)
+Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
+Utility.DumpProtobuf<T>(T, |System.Boolean|)

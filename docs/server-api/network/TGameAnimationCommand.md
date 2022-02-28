@@ -45,7 +45,7 @@ public string actionName { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 collisionAnimationID
 
 #### 선언
@@ -57,7 +57,7 @@ public int collisionAnimationID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 collisionOffsetX
 
 #### 선언
@@ -105,7 +105,7 @@ public bool collisionWall { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 deleteOnCollision
 
 #### 선언
@@ -117,7 +117,7 @@ public bool deleteOnCollision { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 directionSync
 
 #### 선언
@@ -129,7 +129,7 @@ public bool directionSync { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 endColor
 
 #### 선언
@@ -141,7 +141,7 @@ public uint endColor { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.UInt32	
+|System.UInt32|	
 endScaleX
 
 #### 선언
@@ -177,7 +177,7 @@ public bool followUnit { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 gravityX
 
 #### 선언
@@ -213,7 +213,7 @@ public bool includeEnemy { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 includeSameTeam
 
 #### 선언
@@ -225,7 +225,7 @@ public bool includeSameTeam { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 includeSelf
 
 #### 선언
@@ -237,7 +237,7 @@ public bool includeSelf { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 lifetime
 
 #### 선언
@@ -261,7 +261,7 @@ public int maxCollisions { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 moveSpeedX
 
 #### 선언
@@ -297,7 +297,7 @@ public int playCommonEventID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 randomOffsetX
 
 #### 선언
@@ -345,7 +345,7 @@ public bool rotationToDir { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 sortingBack
 
 #### 선언
@@ -357,7 +357,7 @@ public bool sortingBack { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 soundID
 
 #### 선언
@@ -369,7 +369,7 @@ public string soundID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 startColor
 
 #### 선언
@@ -381,7 +381,7 @@ public uint startColor { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.UInt32	
+|System.UInt32|	
 startDirOffsetX
 
 #### 선언
@@ -465,7 +465,7 @@ public uint targetFlashColor { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.UInt32	
+|System.UInt32|	
 targetFlashTime
 
 #### 선언
@@ -501,16 +501,18 @@ public int type { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
-매개 변수(인자)
-타입	이름	설명
-System.Boolean	createIfMissing	
+```
+### 매개 변수 (인자)
+|타입|이름|설명|
+|:-|:-|:-|
+|System.Boolean|	createIfMissing	
 반환
 
 |타입|설명|
@@ -520,5 +522,5 @@ ProtoBuf.IExtension
 ProtoBuf.IExtensible
 확장 함수
 Utility.Clone<T>(T)
-Utility.DumpProtobufBase64<T>(T, System.Boolean)
-Utility.DumpProtobuf<T>(T, System.Boolean)
+Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
+Utility.DumpProtobuf<T>(T, |System.Boolean|)

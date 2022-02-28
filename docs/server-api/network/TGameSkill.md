@@ -45,7 +45,7 @@ public string actionName { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 animationID
 
 #### 선언
@@ -57,7 +57,7 @@ public int animationID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 consumeHP
 
 #### 선언
@@ -69,7 +69,7 @@ public int consumeHP { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 consumeMP
 
 #### 선언
@@ -81,7 +81,7 @@ public int consumeMP { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 coolTime
 
 #### 선언
@@ -117,7 +117,7 @@ public string damageFormula { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 damageType
 
 #### 선언
@@ -129,7 +129,7 @@ public int damageType { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 desc
 
 #### 선언
@@ -141,7 +141,7 @@ public string desc { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 hasCritical
 
 #### 선언
@@ -153,7 +153,7 @@ public bool hasCritical { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 iconID
 
 #### 선언
@@ -165,7 +165,7 @@ public string iconID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 l_desc
 
 #### 선언
@@ -201,7 +201,7 @@ public string memo { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 name
 
 #### 선언
@@ -213,7 +213,7 @@ public string name { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 oldTraits
 
 #### 선언
@@ -237,7 +237,7 @@ public bool sturnEnable { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 sturnTarget
 
 #### 선언
@@ -249,7 +249,7 @@ public int sturnTarget { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 sturnTime
 
 #### 선언
@@ -285,7 +285,7 @@ public int type { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 useTarget
 
 #### 선언
@@ -297,7 +297,7 @@ public int useTarget { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 useType
 
 #### 선언
@@ -309,16 +309,18 @@ public int useType { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
-매개 변수(인자)
-타입	이름	설명
-System.Boolean	createIfMissing	
+```
+### 매개 변수 (인자)
+|타입|이름|설명|
+|:-|:-|:-|
+|System.Boolean|	createIfMissing	
 반환
 
 |타입|설명|
@@ -328,5 +330,5 @@ ProtoBuf.IExtension
 ProtoBuf.IExtensible
 확장 함수
 Utility.Clone<T>(T)
-Utility.DumpProtobufBase64<T>(T, System.Boolean)
-Utility.DumpProtobuf<T>(T, System.Boolean)
+Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
+Utility.DumpProtobuf<T>(T, |System.Boolean|)

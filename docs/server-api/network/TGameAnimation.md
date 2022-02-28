@@ -46,19 +46,16 @@ public TGameAnimation()
 [ProtoMember(4, Name = "commands", DataFormat = DataFormat.Default)]
 public List<TGameAnimationCommand> commands { get; }
 ```
-```
 #### 프로퍼티 값
 
 |타입|설명|
 |:-|:-|
 |System.Collections.Generic.List<TGameAnimationCommand>|imageID|
 
-
 #### 선언
 ```cs
 [ProtoMember(3, IsRequired = false, Name = "imageID", DataFormat = DataFormat.Default)]
 public string imageID { get; set; }
-```
 ```
 #### 프로퍼티 값
 
@@ -66,19 +63,16 @@ public string imageID { get; set; }
 |:-|:-|
 |System.String|l_name|
 
-
 #### 선언
 ```cs
 [ProtoMember(6, IsRequired = false, Name = "l_name", DataFormat = DataFormat.Default)]
 public LString l_name { get; set; }
-```
 ```
 #### 프로퍼티 값
 
 |타입|설명|
 |:-|:-|
 |network.LString|name|
-
 
 #### 선언
 ```cs
@@ -89,8 +83,7 @@ public string name { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
-persistentTeleport
+|System.String|persistentTeleport|
 
 #### 선언
 ```cs
@@ -101,16 +94,20 @@ public bool persistentTeleport { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
-명시적 인터페이스 구현
-IExtensible.GetExtensionObject(Boolean)
+|System.Boolean|
 
+## 명시적 인터페이스 구현
+---
+
+## IExtensible.GetExtensionObject(Boolean)
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
-매개 변수(인자)
-타입	이름	설명
-System.Boolean	createIfMissing	
+```
+### 매개 변수 (인자)
+|타입|이름|설명|
+|:-|:-|:-|
+|System.Boolean|	createIfMissing	
 반환
 
 |타입|설명|
@@ -120,5 +117,5 @@ ProtoBuf.IExtension
 ProtoBuf.IExtensible
 확장 함수
 Utility.Clone<T>(T)
-Utility.DumpProtobufBase64<T>(T, System.Boolean)
-Utility.DumpProtobuf<T>(T, System.Boolean)
+Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
+Utility.DumpProtobuf<T>(T, |System.Boolean|)

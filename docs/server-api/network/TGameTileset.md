@@ -45,7 +45,7 @@ public string autoTile1ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 autoTile2ID
 
 #### 선언
@@ -57,7 +57,7 @@ public string autoTile2ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 autoTile3ID
 
 #### 선언
@@ -69,7 +69,7 @@ public string autoTile3ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 autoTile4ID
 
 #### 선언
@@ -81,7 +81,7 @@ public string autoTile4ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 autoTile5ID
 
 #### 선언
@@ -93,7 +93,7 @@ public string autoTile5ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 autoTile6ID
 
 #### 선언
@@ -105,7 +105,7 @@ public string autoTile6ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 autoTile7ID
 
 #### 선언
@@ -117,7 +117,7 @@ public string autoTile7ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 bushes
 
 #### 선언
@@ -129,7 +129,7 @@ public List<uint> bushes { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<System.UInt32>	
+System.Collections.Generic.List<|System.UInt32|>	
 fogID
 
 #### 선언
@@ -141,7 +141,7 @@ public string fogID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 imageID
 
 #### 선언
@@ -153,7 +153,7 @@ public string imageID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 l_name
 
 #### 선언
@@ -177,7 +177,7 @@ public List<bool> movables { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<System.Boolean>	
+System.Collections.Generic.List<|System.Boolean|>	
 movables4Ways
 
 #### 선언
@@ -189,7 +189,7 @@ public List<uint> movables4Ways { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<System.UInt32>	
+System.Collections.Generic.List<|System.UInt32|>	
 name
 
 #### 선언
@@ -201,7 +201,7 @@ public string name { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 objects
 
 #### 선언
@@ -237,7 +237,7 @@ public string panorama1ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 panorama2
 
 #### 선언
@@ -261,7 +261,7 @@ public string panorama2ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 panorama3
 
 #### 선언
@@ -285,7 +285,7 @@ public string panorama3ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 panorama4
 
 #### 선언
@@ -309,7 +309,7 @@ public string panorama4ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 panorama5
 
 #### 선언
@@ -333,7 +333,7 @@ public string panorama5ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 priorities
 
 #### 선언
@@ -345,7 +345,7 @@ public List<uint> priorities { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<System.UInt32>	
+System.Collections.Generic.List<|System.UInt32|>	
 tag
 
 #### 선언
@@ -357,16 +357,18 @@ public List<uint> tag { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<System.UInt32>	
+System.Collections.Generic.List<|System.UInt32|>	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
-매개 변수(인자)
-타입	이름	설명
-System.Boolean	createIfMissing	
+```
+### 매개 변수 (인자)
+|타입|이름|설명|
+|:-|:-|:-|
+|System.Boolean|	createIfMissing	
 반환
 
 |타입|설명|
@@ -376,5 +378,5 @@ ProtoBuf.IExtension
 ProtoBuf.IExtensible
 확장 함수
 Utility.Clone<T>(T)
-Utility.DumpProtobufBase64<T>(T, System.Boolean)
-Utility.DumpProtobuf<T>(T, System.Boolean)
+Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
+Utility.DumpProtobuf<T>(T, |System.Boolean|)

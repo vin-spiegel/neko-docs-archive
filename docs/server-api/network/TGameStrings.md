@@ -45,7 +45,7 @@ public string agility { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 attack
 
 #### 선언
@@ -57,7 +57,7 @@ public string attack { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom1
 
 #### 선언
@@ -69,7 +69,7 @@ public string custom1 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom10
 
 #### 선언
@@ -81,7 +81,7 @@ public string custom10 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom11
 
 #### 선언
@@ -93,7 +93,7 @@ public string custom11 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom12
 
 #### 선언
@@ -105,7 +105,7 @@ public string custom12 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom13
 
 #### 선언
@@ -117,7 +117,7 @@ public string custom13 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom14
 
 #### 선언
@@ -129,7 +129,7 @@ public string custom14 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom15
 
 #### 선언
@@ -141,7 +141,7 @@ public string custom15 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom16
 
 #### 선언
@@ -153,7 +153,7 @@ public string custom16 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom17
 
 #### 선언
@@ -165,7 +165,7 @@ public string custom17 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom18
 
 #### 선언
@@ -177,7 +177,7 @@ public string custom18 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom19
 
 #### 선언
@@ -189,7 +189,7 @@ public string custom19 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom2
 
 #### 선언
@@ -201,7 +201,7 @@ public string custom2 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom20
 
 #### 선언
@@ -213,7 +213,7 @@ public string custom20 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom21
 
 #### 선언
@@ -225,7 +225,7 @@ public string custom21 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom22
 
 #### 선언
@@ -237,7 +237,7 @@ public string custom22 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom23
 
 #### 선언
@@ -249,7 +249,7 @@ public string custom23 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom24
 
 #### 선언
@@ -261,7 +261,7 @@ public string custom24 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom25
 
 #### 선언
@@ -273,7 +273,7 @@ public string custom25 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom26
 
 #### 선언
@@ -285,7 +285,7 @@ public string custom26 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom27
 
 #### 선언
@@ -297,7 +297,7 @@ public string custom27 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom28
 
 #### 선언
@@ -309,7 +309,7 @@ public string custom28 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom29
 
 #### 선언
@@ -321,7 +321,7 @@ public string custom29 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom3
 
 #### 선언
@@ -333,7 +333,7 @@ public string custom3 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom30
 
 #### 선언
@@ -345,7 +345,7 @@ public string custom30 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom31
 
 #### 선언
@@ -357,7 +357,7 @@ public string custom31 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom32
 
 #### 선언
@@ -369,7 +369,7 @@ public string custom32 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom4
 
 #### 선언
@@ -381,7 +381,7 @@ public string custom4 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom5
 
 #### 선언
@@ -393,7 +393,7 @@ public string custom5 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom6
 
 #### 선언
@@ -405,7 +405,7 @@ public string custom6 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom7
 
 #### 선언
@@ -417,7 +417,7 @@ public string custom7 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom8
 
 #### 선언
@@ -429,7 +429,7 @@ public string custom8 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 custom9
 
 #### 선언
@@ -441,7 +441,7 @@ public string custom9 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 defense
 
 #### 선언
@@ -453,7 +453,7 @@ public string defense { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 exp
 
 #### 선언
@@ -465,7 +465,7 @@ public string exp { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 fatigue
 
 #### 선언
@@ -477,7 +477,7 @@ public string fatigue { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 gameMoney
 
 #### 선언
@@ -489,7 +489,7 @@ public string gameMoney { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 hit
 
 #### 선언
@@ -501,7 +501,7 @@ public string hit { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 hp
 
 #### 선언
@@ -513,7 +513,7 @@ public string hp { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 level
 
 #### 선언
@@ -525,7 +525,7 @@ public string level { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 lucky
 
 #### 선언
@@ -537,7 +537,7 @@ public string lucky { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 magicAttack
 
 #### 선언
@@ -549,7 +549,7 @@ public string magicAttack { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 magicDefense
 
 #### 선언
@@ -561,7 +561,7 @@ public string magicDefense { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 maxHP
 
 #### 선언
@@ -573,7 +573,7 @@ public string maxHP { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 maxMP
 
 #### 선언
@@ -585,7 +585,7 @@ public string maxMP { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 miss
 
 #### 선언
@@ -597,7 +597,7 @@ public string miss { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 mp
 
 #### 선언
@@ -609,16 +609,18 @@ public string mp { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
-매개 변수(인자)
-타입	이름	설명
-System.Boolean	createIfMissing	
+```
+### 매개 변수 (인자)
+|타입|이름|설명|
+|:-|:-|:-|
+|System.Boolean|	createIfMissing	
 반환
 
 |타입|설명|
@@ -628,5 +630,5 @@ ProtoBuf.IExtension
 ProtoBuf.IExtensible
 확장 함수
 Utility.Clone<T>(T)
-Utility.DumpProtobufBase64<T>(T, System.Boolean)
-Utility.DumpProtobuf<T>(T, System.Boolean)
+Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
+Utility.DumpProtobuf<T>(T, |System.Boolean|)

@@ -45,7 +45,7 @@ public string damageFormula { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 damageType
 
 #### 선언
@@ -57,7 +57,7 @@ public int damageType { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 debuffCondition
 
 #### 선언
@@ -69,7 +69,7 @@ public int debuffCondition { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 debuffTime
 
 #### 선언
@@ -81,7 +81,7 @@ public int debuffTime { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 desc
 
 #### 선언
@@ -93,7 +93,7 @@ public string desc { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 hasCritical
 
 #### 선언
@@ -105,7 +105,7 @@ public bool hasCritical { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 iconID
 
 #### 선언
@@ -117,7 +117,7 @@ public string iconID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 isRemoveBuff
 
 #### 선언
@@ -129,7 +129,7 @@ public bool isRemoveBuff { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 l_desc
 
 #### 선언
@@ -165,7 +165,7 @@ public string memo { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 name
 
 #### 선언
@@ -177,7 +177,7 @@ public string name { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 oldTraits
 
 #### 선언
@@ -201,7 +201,7 @@ public bool showAnimation { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 showAnimationID
 
 #### 선언
@@ -213,7 +213,7 @@ public int showAnimationID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 tickTime
 
 #### 선언
@@ -249,16 +249,18 @@ public int type { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
-매개 변수(인자)
-타입	이름	설명
-System.Boolean	createIfMissing	
+```
+### 매개 변수 (인자)
+|타입|이름|설명|
+|:-|:-|:-|
+|System.Boolean|	createIfMissing	
 반환
 
 |타입|설명|
@@ -268,5 +270,5 @@ ProtoBuf.IExtension
 ProtoBuf.IExtensible
 확장 함수
 Utility.Clone<T>(T)
-Utility.DumpProtobufBase64<T>(T, System.Boolean)
-Utility.DumpProtobuf<T>(T, System.Boolean)
+Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
+Utility.DumpProtobuf<T>(T, |System.Boolean|)

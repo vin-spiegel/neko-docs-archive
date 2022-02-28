@@ -45,7 +45,7 @@ public string desc { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 iconID
 
 #### 선언
@@ -57,7 +57,7 @@ public string iconID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 itemCount1
 
 #### 선언
@@ -69,7 +69,7 @@ public int itemCount1 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 itemCount2
 
 #### 선언
@@ -81,7 +81,7 @@ public int itemCount2 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 itemCount3
 
 #### 선언
@@ -93,7 +93,7 @@ public int itemCount3 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 itemCount4
 
 #### 선언
@@ -105,7 +105,7 @@ public int itemCount4 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 itemID1
 
 #### 선언
@@ -117,7 +117,7 @@ public int itemID1 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 itemID2
 
 #### 선언
@@ -129,7 +129,7 @@ public int itemID2 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 itemID3
 
 #### 선언
@@ -141,7 +141,7 @@ public int itemID3 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 itemID4
 
 #### 선언
@@ -153,7 +153,7 @@ public int itemID4 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 l_desc
 
 #### 선언
@@ -189,7 +189,7 @@ public string memo { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 name
 
 #### 선언
@@ -201,7 +201,7 @@ public string name { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 rewardGameMoney
 
 #### 선언
@@ -213,7 +213,7 @@ public long rewardGameMoney { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int64	
+|||System.Int64|||	
 rewardItemCount1
 
 #### 선언
@@ -225,7 +225,7 @@ public int rewardItemCount1 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 rewardItemCount2
 
 #### 선언
@@ -237,7 +237,7 @@ public int rewardItemCount2 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 rewardItemID1
 
 #### 선언
@@ -249,7 +249,7 @@ public int rewardItemID1 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 rewardItemID2
 
 #### 선언
@@ -261,7 +261,7 @@ public int rewardItemID2 { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 traits
 
 #### 선언
@@ -280,9 +280,11 @@ IExtensible.GetExtensionObject(Boolean)
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
-매개 변수(인자)
-타입	이름	설명
-System.Boolean	createIfMissing	
+```
+### 매개 변수 (인자)
+|타입|이름|설명|
+|:-|:-|:-|
+|System.Boolean|	createIfMissing	
 반환
 
 |타입|설명|
@@ -292,5 +294,5 @@ ProtoBuf.IExtension
 ProtoBuf.IExtensible
 확장 함수
 Utility.Clone<T>(T)
-Utility.DumpProtobufBase64<T>(T, System.Boolean)
-Utility.DumpProtobuf<T>(T, System.Boolean)
+Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
+Utility.DumpProtobuf<T>(T, |System.Boolean|)

@@ -57,7 +57,7 @@ public int ambientIntansity { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 ambientOffsetX
 
 #### 선언
@@ -69,7 +69,7 @@ public int ambientOffsetX { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 ambientOffsetY
 
 #### 선언
@@ -81,7 +81,7 @@ public int ambientOffsetY { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 collisionHeight
 
 #### 선언
@@ -93,7 +93,7 @@ public int collisionHeight { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 collisionOffsetX
 
 #### 선언
@@ -105,7 +105,7 @@ public int collisionOffsetX { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 collisionOffsetY
 
 #### 선언
@@ -117,7 +117,7 @@ public int collisionOffsetY { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 collisionWidth
 
 #### 선언
@@ -129,7 +129,7 @@ public int collisionWidth { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 enableNineSliced
 
 #### 선언
@@ -141,7 +141,7 @@ public bool enableNineSliced { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 folder
 
 #### 선언
@@ -153,7 +153,7 @@ public string folder { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 id
 
 #### 선언
@@ -165,7 +165,7 @@ public string id { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 name
 
 #### 선언
@@ -177,7 +177,7 @@ public string name { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.String	
+|System.String|	
 nameOffsetX
 
 #### 선언
@@ -189,7 +189,7 @@ public int nameOffsetX { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 nameOffsetY
 
 #### 선언
@@ -201,7 +201,7 @@ public int nameOffsetY { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 nameScale
 
 #### 선언
@@ -225,7 +225,7 @@ public int spriteBorderBottom { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 spriteBorderLeft
 
 #### 선언
@@ -237,7 +237,7 @@ public int spriteBorderLeft { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 spriteBorderRight
 
 #### 선언
@@ -249,7 +249,7 @@ public int spriteBorderRight { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 spriteBorderTop
 
 #### 선언
@@ -261,7 +261,7 @@ public int spriteBorderTop { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 spriteCellX
 
 #### 선언
@@ -273,7 +273,7 @@ public int spriteCellX { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 spriteCellY
 
 #### 선언
@@ -285,7 +285,7 @@ public int spriteCellY { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 spriteType
 
 #### 선언
@@ -297,7 +297,7 @@ public int spriteType { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 type
 
 #### 선언
@@ -309,16 +309,18 @@ public int type { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
-매개 변수(인자)
-타입	이름	설명
-System.Boolean	createIfMissing	
+```
+### 매개 변수 (인자)
+|타입|이름|설명|
+|:-|:-|:-|
+|System.Boolean|	createIfMissing	
 반환
 
 |타입|설명|
@@ -328,5 +330,5 @@ ProtoBuf.IExtension
 ProtoBuf.IExtensible
 확장 함수
 Utility.Clone<T>(T)
-Utility.DumpProtobufBase64<T>(T, System.Boolean)
-Utility.DumpProtobuf<T>(T, System.Boolean)
+Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
+Utility.DumpProtobuf<T>(T, |System.Boolean|)

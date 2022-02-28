@@ -45,7 +45,7 @@ public int count { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 dataID
 
 #### 선언
@@ -57,7 +57,7 @@ public int dataID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 id
 
 #### 선언
@@ -69,7 +69,7 @@ public long id { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int64	
+|System.Int64|	
 index
 
 #### 선언
@@ -81,7 +81,7 @@ public int index { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 inTrade
 
 #### 선언
@@ -93,7 +93,7 @@ public bool inTrade { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 level
 
 #### 선언
@@ -105,7 +105,7 @@ public int level { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int32	
+|System.Int32|	
 locked
 
 #### 선언
@@ -117,7 +117,7 @@ public bool locked { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 nftTokenID
 
 #### 선언
@@ -129,7 +129,7 @@ public long nftTokenID { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Int64	
+|System.Int64|	
 options
 
 #### 선언
@@ -153,16 +153,18 @@ public bool useCloudResource { get; set; }
 
 |타입|설명|
 |:-|:-|
-System.Boolean	
+|System.Boolean|	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
-매개 변수(인자)
-타입	이름	설명
-System.Boolean	createIfMissing	
+```
+### 매개 변수 (인자)
+|타입|이름|설명|
+|:-|:-|:-|
+|System.Boolean|	createIfMissing	
 반환
 
 |타입|설명|
@@ -173,5 +175,5 @@ ProtoBuf.IExtensible
 확장 함수
 Utility.IsSameKindOfItem(network.TItem, network.TItem)
 Utility.Clone<T>(T)
-Utility.DumpProtobufBase64<T>(T, System.Boolean)
-Utility.DumpProtobuf<T>(T, System.Boolean)
+Utility.DumpProtobufBase64<T>(T, |System.Boolean|)
+Utility.DumpProtobuf<T>(T, |System.Boolean|)
