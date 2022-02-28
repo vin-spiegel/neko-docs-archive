@@ -23,93 +23,117 @@ nav_order: 13
 어셈블리: Creator.dll
 {: .text-zeta}
 
-Syntax
+#### Syntax
+```cs
 [Serializable]
 public class TGamePanorama : IExtensible
-생성자
+## 생성자
 TGamePanorama()
-선언
+#### 선언
+```cs
 public TGamePanorama()
 프로퍼티
 distanceX
-선언
+#### 선언
+```cs
 [ProtoMember(9, IsRequired = false, Name = "distanceX", DataFormat = DataFormat.FixedSize)]
 public float distanceX { get; set; }
-프로퍼티 값
-타입	설명
+#### 프로퍼티 값
+
+|타입|설명|
 System.Single	
 distanceY
-선언
+#### 선언
+```cs
 [ProtoMember(10, IsRequired = false, Name = "distanceY", DataFormat = DataFormat.FixedSize)]
 public float distanceY { get; set; }
-프로퍼티 값
-타입	설명
+#### 프로퍼티 값
+
+|타입|설명|
 System.Single	
 gapX
-선언
+#### 선언
+```cs
 [ProtoMember(5, IsRequired = false, Name = "gapX", DataFormat = DataFormat.FixedSize)]
 public float gapX { get; set; }
-프로퍼티 값
-타입	설명
+#### 프로퍼티 값
+
+|타입|설명|
 System.Single	
 gapY
-선언
+#### 선언
+```cs
 [ProtoMember(6, IsRequired = false, Name = "gapY", DataFormat = DataFormat.FixedSize)]
 public float gapY { get; set; }
-프로퍼티 값
-타입	설명
+#### 프로퍼티 값
+
+|타입|설명|
 System.Single	
 loopX
-선언
+#### 선언
+```cs
 [ProtoMember(7, IsRequired = false, Name = "loopX", DataFormat = DataFormat.Default)]
 public bool loopX { get; set; }
-프로퍼티 값
-타입	설명
+#### 프로퍼티 값
+
+|타입|설명|
 System.Boolean	
 loopY
-선언
+#### 선언
+```cs
 [ProtoMember(8, IsRequired = false, Name = "loopY", DataFormat = DataFormat.Default)]
 public bool loopY { get; set; }
-프로퍼티 값
-타입	설명
+#### 프로퍼티 값
+
+|타입|설명|
 System.Boolean	
 offsetX
-선언
+#### 선언
+```cs
 [ProtoMember(3, IsRequired = false, Name = "offsetX", DataFormat = DataFormat.FixedSize)]
 public float offsetX { get; set; }
-프로퍼티 값
-타입	설명
+#### 프로퍼티 값
+
+|타입|설명|
 System.Single	
 offsetY
-선언
+#### 선언
+```cs
 [ProtoMember(4, IsRequired = false, Name = "offsetY", DataFormat = DataFormat.FixedSize)]
 public float offsetY { get; set; }
-프로퍼티 값
-타입	설명
+#### 프로퍼티 값
+
+|타입|설명|
 System.Single	
 scaleX
-선언
+#### 선언
+```cs
 [ProtoMember(1, IsRequired = false, Name = "scaleX", DataFormat = DataFormat.FixedSize)]
 public float scaleX { get; set; }
-프로퍼티 값
-타입	설명
+#### 프로퍼티 값
+
+|타입|설명|
 System.Single	
 scaleY
-선언
+#### 선언
+```cs
 [ProtoMember(2, IsRequired = false, Name = "scaleY", DataFormat = DataFormat.FixedSize)]
 public float scaleY { get; set; }
-프로퍼티 값
-타입	설명
+#### 프로퍼티 값
+
+|타입|설명|
 System.Single	
 명시적 인터페이스 구현
 IExtensible.GetExtensionObject(Boolean)
-선언
+#### 선언
+```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 매개 변수(인자)
 타입	이름	설명
 System.Boolean	createIfMissing	
 반환
-타입	설명
+
+|타입|설명|
 ProtoBuf.IExtension	
 구현
 ProtoBuf.IExtensible
