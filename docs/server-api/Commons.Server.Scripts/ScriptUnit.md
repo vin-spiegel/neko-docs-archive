@@ -13,12 +13,12 @@ grand_parent: Server API
 
 #### 상속
 
-```
-↳ System.Object
-    ↳ ScriptObject
-        ↳ ScriptUnit
-            ↳ ScriptPetUnit
-```
+<div class="code-example" markdown="1" style = "font-size:0.8em;">
+↳ System.Object<br/>
+　↳ <a href = "../ScriptObject">ScriptObject</a><br/>
+　　↳ ScriptUnit<br/>
+　　　↳ <a href = "../ScriptPetUnit">ScriptPetUnit</a><br/>
+</div>
 
 네임스페이스: [Commons.Server.Scripts](../)
 {: .text-zeta}

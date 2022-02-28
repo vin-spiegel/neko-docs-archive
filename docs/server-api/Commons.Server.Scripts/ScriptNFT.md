@@ -14,10 +14,10 @@ New
 
 #### 상속
 
-```
-↳ System.Object
-    ↳ ScriptNFT
-```
+<div class="code-example" markdown="1" style = "font-size:0.8em;">
+↳ System.Object<br/>
+　↳ ScriptNFT
+</div>
 
 네임스페이스: [Commons.Server.Scripts](../)
 {: .text-zeta}

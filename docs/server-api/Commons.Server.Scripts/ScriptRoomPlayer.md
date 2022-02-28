@@ -16,11 +16,11 @@ grand_parent: Server API
 
 #### 상속
 
-```
-↳ System.Object
-    ↳ ScriptObject
-        ↳ ScriptRoomPlayer
-```
+<div class="code-example" markdown="1" style = "font-size:0.8em;">
+↳ System.Object<br/>
+　↳ <a href = "../ScriptObject">ScriptObject</a><br/>
+　　↳ ScriptRoomPlayer
+</div>
 
 네임스페이스: [Commons.Server.Scripts](../)
 {: .text-zeta}

@@ -16,10 +16,10 @@ nav_order: 5
 
 #### 상속
 
-```markdown
-↳ System.Object
-    ↳ ScriptEventPublisher
-```
+<div class="code-example" markdown="1" style = "font-size:0.8em;">
+↳ System.Object<br/>
+　↳ ScriptEventPublisher
+</div>
 
 네임스페이스: [Commons.Server.Scripts](../)
 {: .text-zeta}

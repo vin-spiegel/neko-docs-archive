@@ -13,10 +13,10 @@ Server 객체로 참조할 수 있는 클래스 입니다. 유저가 접속했�
 
 #### 상속
 
-```
-↳ System.Object
-    ↳ ScriptServer
-```
+<div class="code-example" markdown="1" style = "font-size:0.8em;">
+↳ System.Object<br/>
+　↳ ScriptServer
+</div>
 
 네임스페이스: [Commons.Server.Scripts](../)
 {: .text-zeta}

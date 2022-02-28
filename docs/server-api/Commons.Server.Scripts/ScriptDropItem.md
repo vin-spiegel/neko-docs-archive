@@ -17,11 +17,11 @@ nav_order: 3
 
 #### 상속
 
-```markdown
-↳ System.Object
-    ↳ [ScriptObject](/docs/server-api/Commons.Server.Scripts/ScriptObject/)
-        ↳ ScriptDropItem
-```
+<div class="code-example" markdown="1" style = "font-size:0.8em;">
+↳ System.Object<br/>
+　↳ <a href = "../ScriptObject">ScriptObject</a><br/>
+　　↳ ScriptDropItem
+</div>
 
 네임스페이스: [Commons.Server.Scripts](../)
 {: .text-zeta}

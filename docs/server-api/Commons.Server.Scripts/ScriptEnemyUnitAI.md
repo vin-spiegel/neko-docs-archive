@@ -16,12 +16,12 @@ nav_order: 4
 
 #### 상속
 
-```markdown
-↳ System.Object
-    ↳ ScriptObject
-        ↳ Commons.Server.Scripts.ScriptUnitAI
-            ↳ ScriptEnemyUnitAI
-```
+<div class="code-example" markdown="1" style = "font-size:0.8em;">
+↳ System.Object<br/>
+　↳ <a href = "../ScriptObject">ScriptObject</a><br/>
+　　↳ Commons.Server.Scripts.ScriptUnitAI
+　　　↳ ScriptEnemyUnitAI
+</div>
 
 네임스페이스: [Commons.Server.Scripts](../)
 {: .text-zeta}

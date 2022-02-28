@@ -13,13 +13,13 @@ nav_order: 1
 
 #### 상속
 
-```markdown
-System.Object 
-    ↳ ScriptObject 
-        ↳ ScriptClan
-```
+<div class="code-example" markdown="1" style = "font-size:0.8em;">
+↳ System.Object<br/>
+　↳ <a href = "../ScriptObject">ScriptObject</a><br/>
+　　↳ ScriptDropItem
+</div>
 
-네임스페이스: [Commons.Server.Scripts](/docs/ServerAPI/Commons.Server.Scripts/)
+네임스페이스: [Commons.Server.Scripts](../)
 {: .text-zeta}
 
 어셈블리: Creator.dll

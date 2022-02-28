@@ -18,17 +18,18 @@ ai.customData.test = 1 처럼 커스텀 변수 설정이 가능합니다.
 
 #### 상속
 
-```
-↳ System.Object
-    ↳ ScriptObject
-        ↳ ScriptClan
-        ↳ ScriptDropItem
-        ↳ ScriptField
-        ↳ ScriptParty
-        ↳ ScriptRoomPlayer
-        ↳ ScriptUnit
-        ↳ ScriptUnitBuff
-```
+<div class="code-example" markdown="1" style = "font-size:0.8em;">
+↳ System.Object<br/>
+　↳ ScriptObject<br/>
+　　↳ <a href = "../ScriptClan">ScriptClan</a><br/>
+　　↳ <a href = "../ScriptDropItem">ScriptDropItem</a><br/>
+　　↳ <a href = "../ScriptField">ScriptField</a><br/>
+　　↳ <a href = "../ScriptParty">ScriptParty</a><br/>
+　　↳ <a href = "../ScriptRoomPlayer">ScriptRoomPlayer</a><br/>
+　　↳ <a href = "../ScriptUnit">ScriptUnit</a><br/>
+　　↳ <a href = "../ScriptUnitBuff">ScriptUnitBuff</a><br/>
+</div>
+
 
 네임스페이스: [Commons.Server.Scripts](../)
 {: .text-zeta}

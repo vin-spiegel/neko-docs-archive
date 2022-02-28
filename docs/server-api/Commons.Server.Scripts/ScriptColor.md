@@ -12,12 +12,12 @@ nav_order: 2
 
 #### 상속
 
-```
-System.Object 
-    ↳ ScriptColor
-```
+<div class="code-example" markdown="1" style = "font-size:0.8em;">
+↳ System.Object<br/>
+　↳ ScriptColor
+</div>
 
-네임스페이스: [Commons.Server.Scripts](/docs/ServerAPI/Commons.Server.Scripts/)
+네임스페이스: [Commons.Server.Scripts](../)
 {: .text-zeta}
 
 어셈블리: Creator.dll
