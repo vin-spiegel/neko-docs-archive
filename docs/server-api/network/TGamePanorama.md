@@ -27,6 +27,7 @@ nav_order: 13
 ```cs
 [Serializable]
 public class TGamePanorama : IExtensible
+```
 ## 생성자
 ---
 TGamePanorama()
@@ -34,8 +35,11 @@ TGamePanorama()
 #### 선언
 ```cs
 public TGamePanorama()
-프로퍼티
-distanceX
+```
+
+## 프로퍼티
+---
+## distanceX
 
 #### 선언
 ```cs
@@ -46,8 +50,7 @@ public float distanceX { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Single|	
-distanceY
+|System.Single|distanceY|
 
 #### 선언
 ```cs
@@ -58,8 +61,7 @@ public float distanceY { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Single|	
-gapX
+|System.Single|gapX|
 
 #### 선언
 ```cs
@@ -70,8 +72,7 @@ public float gapX { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Single|	
-gapY
+|System.Single|gapY|
 
 #### 선언
 ```cs
@@ -82,8 +83,7 @@ public float gapY { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Single|	
-loopX
+|System.Single|loopX|
 
 #### 선언
 ```cs
@@ -94,8 +94,7 @@ public bool loopX { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-loopY
+|System.Boolean|loopY|
 
 #### 선언
 ```cs
@@ -106,8 +105,7 @@ public bool loopY { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-offsetX
+|System.Boolean|offsetX|
 
 #### 선언
 ```cs
@@ -118,8 +116,7 @@ public float offsetX { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Single|	
-offsetY
+|System.Single|offsetY|
 
 #### 선언
 ```cs
@@ -130,8 +127,7 @@ public float offsetY { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Single|	
-scaleX
+|System.Single|scaleX|
 
 #### 선언
 ```cs
@@ -142,8 +138,7 @@ public float scaleX { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Single|	
-scaleY
+|System.Single|scaleY|
 
 #### 선언
 ```cs
@@ -155,9 +150,10 @@ public float scaleY { get; set; }
 |타입|설명|
 |:-|:-|
 |System.Single|	
+
 ## 명시적 인터페이스 구현
 ---
-IExtensible.GetExtensionObject(Boolean)
+## IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
@@ -166,7 +162,7 @@ IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 ### 매개 변수 (인자)
 |타입|이름|설명|
 |:-|:-|:-|
-|System.Boolean|	createIfMissing	
+|System.Boolean|createIfMissing|
 
 #### 반환
 

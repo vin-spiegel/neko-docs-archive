@@ -30,13 +30,15 @@ public class TItem : IExtensible
 ```
 ## 생성자
 ---
-TItem()
+## TItem()
 
 #### 선언
 ```cs
 public TItem()
-프로퍼티
-count
+```
+## 프로퍼티
+---
+## count
 
 #### 선언
 ```cs
@@ -47,8 +49,7 @@ public int count { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-dataID
+|System.Int32|dataID|
 
 #### 선언
 ```cs
@@ -59,8 +60,7 @@ public int dataID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-id
+|System.Int32|id|
 
 #### 선언
 ```cs
@@ -71,8 +71,7 @@ public long id { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int64|	
-index
+|System.Int64|index|
 
 #### 선언
 ```cs
@@ -83,8 +82,7 @@ public int index { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-inTrade
+|System.Int32|inTrade|
 
 #### 선언
 ```cs
@@ -95,8 +93,7 @@ public bool inTrade { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-level
+|System.Boolean|level|
 
 #### 선언
 ```cs
@@ -107,8 +104,7 @@ public int level { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-locked
+|System.Int32|locked|
 
 #### 선언
 ```cs
@@ -119,8 +115,7 @@ public bool locked { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-nftTokenID
+|System.Boolean|nftTokenID|
 
 #### 선언
 ```cs
@@ -131,8 +126,7 @@ public long nftTokenID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int64|	
-options
+|System.Int64|options|
 
 #### 선언
 ```cs
@@ -143,8 +137,7 @@ public List<TItemOption> options { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<TItemOption>	
-useCloudResource
+|System.Collections.Generic.List<TItemOption>|useCloudResource|
 
 #### 선언
 ```cs
@@ -156,9 +149,10 @@ public bool useCloudResource { get; set; }
 |타입|설명|
 |:-|:-|
 |System.Boolean|	
+
 ## 명시적 인터페이스 구현
 ---
-IExtensible.GetExtensionObject(Boolean)
+## IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
@@ -167,7 +161,7 @@ IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 ### 매개 변수 (인자)
 |타입|이름|설명|
 |:-|:-|:-|
-|System.Boolean|	createIfMissing	
+|System.Boolean|createIfMissing|
 
 #### 반환
 

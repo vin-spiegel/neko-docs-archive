@@ -47,8 +47,7 @@ public int characterID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-exp
+|System.Int32|exp|
 
 #### 선언
 ```cs
@@ -59,8 +58,7 @@ public long exp { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int64|	
-id
+|System.Int64|id|
 
 #### 선언
 ```cs
@@ -71,8 +69,7 @@ public int id { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-jobID
+|System.Int32|jobID|
 
 #### 선언
 ```cs
@@ -83,8 +80,7 @@ public int jobID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-level
+|System.Int32|level|
 
 #### 선언
 ```cs
@@ -95,8 +91,7 @@ public int level { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-name
+|System.Int32|name|
 
 #### 선언
 ```cs
@@ -108,18 +103,20 @@ public string name { get; set; }
 |타입|설명|
 |:-|:-|
 |System.String|	
+
 ## 명시적 인터페이스 구현
 ---
-IExtensible.GetExtensionObject(Boolean)
+## IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 ```
 ### 매개 변수 (인자)
+
 |타입|이름|설명|
 |:-|:-|:-|
-|System.Boolean|	createIfMissing	
+|System.Boolean|createIfMissing|
 
 #### 반환
 

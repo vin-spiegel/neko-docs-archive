@@ -28,15 +28,18 @@ nav_order: 23
 [Serializable]
 public class TQuickSlot : IExtensible
 ```
+
 ## 생성자
 ---
-TQuickSlot()
+## TQuickSlot()
 
 #### 선언
 ```cs
 public TQuickSlot()
-프로퍼티
-itemID
+```
+## 프로퍼티
+---
+## itemID
 
 #### 선언
 ```cs
@@ -47,8 +50,7 @@ public long itemID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int64|	
-skillDataID
+|System.Int64|skillDataID|
 
 #### 선언
 ```cs
@@ -60,15 +62,17 @@ public int skillDataID { get; set; }
 |타입|설명|
 |:-|:-|
 |System.Int32|	
+
 ## 명시적 인터페이스 구현
 ---
-IExtensible.GetExtensionObject(Boolean)
+## IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 ```
 ### 매개 변수 (인자)
+
 |타입|이름|설명|
 |:-|:-|:-|
 |System.Boolean|createIfMissing|

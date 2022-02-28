@@ -27,15 +27,18 @@ nav_order: 14
 ```cs
 [Serializable]
 public class TGameResource : IExtensible
+```
 ## 생성자
 ---
-TGameResource()
+## TGameResource()
 
 #### 선언
 ```cs
 public TGameResource()
-프로퍼티
-actions
+```
+## 프로퍼티
+---
+## actions
 
 #### 선언
 ```cs
@@ -46,8 +49,7 @@ public List<TGameSpriteAction> actions { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<TGameSpriteAction>	
-ambientIntansity
+|System.Collections.Generic.List<TGameSpriteAction>|ambientIntansity|
 
 #### 선언
 ```cs
@@ -58,8 +60,7 @@ public int ambientIntansity { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-ambientOffsetX
+|System.Int32|ambientOffsetX|
 
 #### 선언
 ```cs
@@ -70,8 +71,7 @@ public int ambientOffsetX { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-ambientOffsetY
+|System.Int32|ambientOffsetY|
 
 #### 선언
 ```cs
@@ -82,8 +82,7 @@ public int ambientOffsetY { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-collisionHeight
+|System.Int32|collisionHeight|
 
 #### 선언
 ```cs
@@ -94,8 +93,7 @@ public int collisionHeight { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-collisionOffsetX
+|System.Int32|collisionOffsetX|
 
 #### 선언
 ```cs
@@ -106,8 +104,7 @@ public int collisionOffsetX { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-collisionOffsetY
+|System.Int32|collisionOffsetY|
 
 #### 선언
 ```cs
@@ -118,8 +115,7 @@ public int collisionOffsetY { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-collisionWidth
+|System.Int32|collisionWidth|
 
 #### 선언
 ```cs
@@ -130,8 +126,7 @@ public int collisionWidth { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-enableNineSliced
+|System.Int32|enableNineSliced|
 
 #### 선언
 ```cs
@@ -142,8 +137,7 @@ public bool enableNineSliced { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-folder
+|System.Boolean|folder|
 
 #### 선언
 ```cs
@@ -154,8 +148,7 @@ public string folder { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-id
+|System.String|id|
 
 #### 선언
 ```cs
@@ -166,8 +159,7 @@ public string id { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-name
+|System.String|name|
 
 #### 선언
 ```cs
@@ -178,8 +170,7 @@ public string name { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-nameOffsetX
+|System.String|nameOffsetX|
 
 #### 선언
 ```cs
@@ -190,8 +181,7 @@ public int nameOffsetX { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-nameOffsetY
+|System.Int32|nameOffsetY|
 
 #### 선언
 ```cs
@@ -202,8 +192,7 @@ public int nameOffsetY { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-nameScale
+|System.Int32|nameScale|
 
 #### 선언
 ```cs
@@ -214,8 +203,7 @@ public float nameScale { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Single|	
-spriteBorderBottom
+|System.Single|spriteBorderBottom|
 
 #### 선언
 ```cs
@@ -226,8 +214,7 @@ public int spriteBorderBottom { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-spriteBorderLeft
+|System.Int32|spriteBorderLeft|
 
 #### 선언
 ```cs
@@ -238,8 +225,7 @@ public int spriteBorderLeft { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-spriteBorderRight
+|System.Int32|spriteBorderRight|
 
 #### 선언
 ```cs
@@ -250,8 +236,7 @@ public int spriteBorderRight { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-spriteBorderTop
+|System.Int32|spriteBorderTop|
 
 #### 선언
 ```cs
@@ -262,8 +247,7 @@ public int spriteBorderTop { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-spriteCellX
+|System.Int32|spriteCellX|
 
 #### 선언
 ```cs
@@ -274,8 +258,7 @@ public int spriteCellX { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-spriteCellY
+|System.Int32|spriteCellY|
 
 #### 선언
 ```cs
@@ -286,8 +269,7 @@ public int spriteCellY { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-spriteType
+|System.Int32|spriteType|
 
 #### 선언
 ```cs
@@ -298,8 +280,7 @@ public int spriteType { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-type
+|System.Int32|type|
 
 #### 선언
 ```cs
@@ -311,18 +292,20 @@ public int type { get; set; }
 |타입|설명|
 |:-|:-|
 |System.Int32|	
+
 ## 명시적 인터페이스 구현
 ---
-IExtensible.GetExtensionObject(Boolean)
+## IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 ```
 ### 매개 변수 (인자)
+
 |타입|이름|설명|
 |:-|:-|:-|
-|System.Boolean|	createIfMissing	
+|System.Boolean|createIfMissing|
 
 #### 반환
 

@@ -27,15 +27,19 @@ nav_order: 15
 ```cs
 [Serializable]
 public class TGameSkill : IExtensible
+```
 ## 생성자
 ---
-TGameSkill()
+## TGameSkill()
 
 #### 선언
 ```cs
 public TGameSkill()
-프로퍼티
-actionName
+```
+
+## 프로퍼티
+---
+## actionName
 
 #### 선언
 ```cs
@@ -46,8 +50,7 @@ public string actionName { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-animationID
+|System.String|animationID|
 
 #### 선언
 ```cs
@@ -58,8 +61,7 @@ public int animationID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-consumeHP
+|System.Int32|consumeHP|
 
 #### 선언
 ```cs
@@ -70,8 +72,7 @@ public int consumeHP { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-consumeMP
+|System.Int32|consumeMP|
 
 #### 선언
 ```cs
@@ -82,8 +83,7 @@ public int consumeMP { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-coolTime
+|System.Int32|coolTime|
 
 #### 선언
 ```cs
@@ -94,8 +94,7 @@ public float coolTime { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Single|	
-criticalPercent
+|System.Single|criticalPercent|
 
 #### 선언
 ```cs
@@ -106,8 +105,7 @@ public float criticalPercent { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Single|	
-damageFormula
+|System.Single|damageFormula|
 
 #### 선언
 ```cs
@@ -118,8 +116,7 @@ public string damageFormula { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-damageType
+|System.String|damageType|
 
 #### 선언
 ```cs
@@ -130,8 +127,7 @@ public int damageType { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-desc
+|System.Int32|desc|
 
 #### 선언
 ```cs
@@ -142,8 +138,7 @@ public string desc { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-hasCritical
+|System.String|hasCritical|
 
 #### 선언
 ```cs
@@ -154,8 +149,7 @@ public bool hasCritical { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-iconID
+|System.Boolean|iconID|
 
 #### 선언
 ```cs
@@ -166,8 +160,7 @@ public string iconID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-l_desc
+|System.String|l_desc|
 
 #### 선언
 ```cs
@@ -178,8 +171,7 @@ public LString l_desc { get; set; }
 
 |타입|설명|
 |:-|:-|
-|network.LString|	
-l_name
+|network.LString|l_name|
 
 #### 선언
 ```cs
@@ -190,8 +182,7 @@ public LString l_name { get; set; }
 
 |타입|설명|
 |:-|:-|
-|network.LString|	
-memo
+|network.LString|memo|
 
 #### 선언
 ```cs
@@ -202,8 +193,7 @@ public string memo { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-name
+|System.String|name|
 
 #### 선언
 ```cs
@@ -214,8 +204,7 @@ public string name { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-oldTraits
+|System.String|oldTraits|
 
 #### 선언
 ```cs
@@ -226,8 +215,7 @@ public List<TGameTrait> oldTraits { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<network.TGameTrait>	
-sturnEnable
+|System.Collections.Generic.List<network.TGameTrait>|sturnEnable|
 
 #### 선언
 ```cs
@@ -238,8 +226,7 @@ public bool sturnEnable { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-sturnTarget
+|System.Boolean|sturnTarget|
 
 #### 선언
 ```cs
@@ -250,8 +237,7 @@ public int sturnTarget { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-sturnTime
+|System.Int32|sturnTime|
 
 #### 선언
 ```cs
@@ -262,8 +248,7 @@ public float sturnTime { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Single|	
-traits
+|System.Single|traits|
 
 #### 선언
 ```cs
@@ -274,8 +259,7 @@ public List<TGameMapEventCommand> traits { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<network.TGameMapEventCommand>	
-type
+|System.Collections.Generic.List<network.TGameMapEventCommand>|type|
 
 #### 선언
 ```cs
@@ -286,8 +270,7 @@ public int type { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-useTarget
+|System.Int32|useTarget|
 
 #### 선언
 ```cs
@@ -298,8 +281,7 @@ public int useTarget { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-useType
+|System.Int32|useType|
 
 #### 선언
 ```cs
@@ -311,18 +293,20 @@ public int useType { get; set; }
 |타입|설명|
 |:-|:-|
 |System.Int32|	
+
 ## 명시적 인터페이스 구현
 ---
-IExtensible.GetExtensionObject(Boolean)
+## IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 ```
 ### 매개 변수 (인자)
+
 |타입|이름|설명|
 |:-|:-|:-|
-|System.Boolean|	createIfMissing	
+|System.Boolean|createIfMissing|
 
 #### 반환
 

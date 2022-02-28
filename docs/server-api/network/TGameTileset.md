@@ -30,13 +30,16 @@ public class TGameTileset : IExtensible
 ```
 ## 생성자
 ---
-TGameTileset()
+## TGameTileset()
 
 #### 선언
 ```cs
 public TGameTileset()
-프로퍼티
-autoTile1ID
+```
+
+## 프로퍼티
+---
+## autoTile1ID
 
 #### 선언
 ```cs
@@ -47,8 +50,7 @@ public string autoTile1ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-autoTile2ID
+|System.String|autoTile2ID|
 
 #### 선언
 ```cs
@@ -59,8 +61,7 @@ public string autoTile2ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-autoTile3ID
+|System.String|autoTile3ID|
 
 #### 선언
 ```cs
@@ -71,8 +72,7 @@ public string autoTile3ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-autoTile4ID
+|System.String|autoTile4ID|
 
 #### 선언
 ```cs
@@ -83,8 +83,7 @@ public string autoTile4ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-autoTile5ID
+|System.String|autoTile5ID|
 
 #### 선언
 ```cs
@@ -95,8 +94,7 @@ public string autoTile5ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-autoTile6ID
+|System.String|autoTile6ID|
 
 #### 선언
 ```cs
@@ -107,8 +105,7 @@ public string autoTile6ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-autoTile7ID
+|System.String|autoTile7ID|
 
 #### 선언
 ```cs
@@ -119,8 +116,7 @@ public string autoTile7ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-bushes
+|System.String|bushes|
 
 #### 선언
 ```cs
@@ -131,8 +127,7 @@ public List<uint> bushes { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<|System.UInt32|>	
-fogID
+|System.Collections.Generic.List<System.UInt32>|fogID|
 
 #### 선언
 ```cs
@@ -143,8 +138,7 @@ public string fogID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-imageID
+|System.String|imageID|
 
 #### 선언
 ```cs
@@ -155,8 +149,7 @@ public string imageID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-l_name
+|System.String|l_name|
 
 #### 선언
 ```cs
@@ -167,8 +160,7 @@ public LString l_name { get; set; }
 
 |타입|설명|
 |:-|:-|
-|network.LString|	
-movables
+|network.LString|movables|
 
 #### 선언
 ```cs
@@ -179,8 +171,7 @@ public List<bool> movables { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<|System.Boolean|>	
-movables4Ways
+|System.Collections.Generic.List<System.Boolean>|movables4Ways|
 
 #### 선언
 ```cs
@@ -191,8 +182,7 @@ public List<uint> movables4Ways { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<|System.UInt32|>	
-name
+|System.Collections.Generic.List<System.UInt32>|name|
 
 #### 선언
 ```cs
@@ -203,8 +193,7 @@ public string name { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-objects
+|System.String|objects|
 
 #### 선언
 ```cs
@@ -215,8 +204,7 @@ public List<TGameTilesetObject> objects { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<network.TGameTilesetObject>	
-panorama1
+|System.Collections.Generic.List<network.TGameTilesetObject>|panorama1|
 
 #### 선언
 ```cs
@@ -227,8 +215,7 @@ public TGamePanorama panorama1 { get; set; }
 
 |타입|설명|
 |:-|:-|
-TGamePanorama	
-panorama1ID
+|TGamePanorama|panorama1ID|
 
 #### 선언
 ```cs
@@ -239,8 +226,7 @@ public string panorama1ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-panorama2
+|System.String|panorama2|
 
 #### 선언
 ```cs
@@ -251,8 +237,7 @@ public TGamePanorama panorama2 { get; set; }
 
 |타입|설명|
 |:-|:-|
-TGamePanorama	
-panorama2ID
+|TGamePanorama|panorama2ID|
 
 #### 선언
 ```cs
@@ -263,8 +248,7 @@ public string panorama2ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-panorama3
+|System.String|panorama3|
 
 #### 선언
 ```cs
@@ -275,8 +259,7 @@ public TGamePanorama panorama3 { get; set; }
 
 |타입|설명|
 |:-|:-|
-TGamePanorama	
-panorama3ID
+|TGamePanorama|panorama3ID|
 
 #### 선언
 ```cs
@@ -287,8 +270,7 @@ public string panorama3ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-panorama4
+|System.String|panorama4|
 
 #### 선언
 ```cs
@@ -299,8 +281,7 @@ public TGamePanorama panorama4 { get; set; }
 
 |타입|설명|
 |:-|:-|
-TGamePanorama	
-panorama4ID
+|TGamePanorama|panorama4ID|
 
 #### 선언
 ```cs
@@ -311,8 +292,7 @@ public string panorama4ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-panorama5
+|System.String|panorama5|
 
 #### 선언
 ```cs
@@ -323,8 +303,7 @@ public TGamePanorama panorama5 { get; set; }
 
 |타입|설명|
 |:-|:-|
-TGamePanorama	
-panorama5ID
+|TGamePanorama|panorama5ID|
 
 #### 선언
 ```cs
@@ -335,8 +314,7 @@ public string panorama5ID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-priorities
+|System.String|priorities|
 
 #### 선언
 ```cs
@@ -347,8 +325,7 @@ public List<uint> priorities { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<|System.UInt32|>	
-tag
+|System.Collections.Generic.List<System.UInt32>|tag|
 
 #### 선언
 ```cs
@@ -359,19 +336,21 @@ public List<uint> tag { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<|System.UInt32|>	
+|System.Collections.Generic.List<System.UInt32>|
+
 ## 명시적 인터페이스 구현
 ---
-IExtensible.GetExtensionObject(Boolean)
+## IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 ```
 ### 매개 변수 (인자)
+
 |타입|이름|설명|
 |:-|:-|:-|
-|System.Boolean|	createIfMissing	
+|System.Boolean|createIfMissing|
 
 #### 반환
 

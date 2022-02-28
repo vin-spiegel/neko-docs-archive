@@ -27,15 +27,18 @@ nav_order: 11
 ```cs
 [Serializable]
 public class TGameMapStub : IExtensible
+```
 ## 생성자
 ---
-TGameMapStub()
+## TGameMapStub()
 
 #### 선언
 ```cs
 public TGameMapStub()
-프로퍼티
-channelCount
+```
+## 프로퍼티
+---
+## channelCount
 
 #### 선언
 ```cs
@@ -46,8 +49,7 @@ public int channelCount { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-children
+|System.Int32|children|
 
 #### 선언
 ```cs
@@ -58,8 +60,7 @@ public List<TGameMapStub> children { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<TGameMapStub>	
-id
+|System.Collections.Generic.List<TGameMapStub>|id|
 
 #### 선언
 ```cs
@@ -70,8 +71,7 @@ public int id { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-isFolder
+|System.Int32|isFolder|
 
 #### 선언
 ```cs
@@ -82,8 +82,7 @@ public bool isFolder { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-maxPlayers
+|System.Boolean|maxPlayers|
 
 #### 선언
 ```cs
@@ -94,8 +93,7 @@ public int maxPlayers { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-name
+|System.Int32|name|
 
 #### 선언
 ```cs
@@ -106,8 +104,7 @@ public string name { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-oldID
+|System.String|oldID|
 
 #### 선언
 ```cs
@@ -119,18 +116,20 @@ public string oldID { get; set; }
 |타입|설명|
 |:-|:-|
 |System.String|	
+
 ## 명시적 인터페이스 구현
 ---
-IExtensible.GetExtensionObject(Boolean)
+## IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 ```
 ### 매개 변수 (인자)
+
 |타입|이름|설명|
 |:-|:-|:-|
-|System.Boolean|	createIfMissing	
+|System.Boolean|createIfMissing|
 
 #### 반환
 

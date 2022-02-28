@@ -30,14 +30,15 @@ public class TGameSpriteAction : IExtensible
 ```
 ## 생성자
 ---
----
-TGameSpriteAction()
+## TGameSpriteAction()
 
 #### 선언
 ```cs
 public TGameSpriteAction()
-프로퍼티
-delay
+```
+## 프로퍼티
+---
+## delay
 
 #### 선언
 ```cs
@@ -48,8 +49,7 @@ public int delay { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-loop
+|System.Int32|loop|
 
 #### 선언
 ```cs
@@ -60,8 +60,7 @@ public bool loop { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Boolean|	
-name
+|System.Boolean|name|
 
 #### 선언
 ```cs
@@ -72,8 +71,7 @@ public string name { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.String|	
-nodes
+|System.String|nodes|
 
 #### 선언
 ```cs
@@ -84,19 +82,22 @@ public List<TGameSpriteActionCell> nodes { get; }
 
 |타입|설명|
 |:-|:-|
-System.Collections.Generic.List<TGameSpriteActionCell>	
+|System.Collections.Generic.List<TGameSpriteActionCell>|
+
 ## 명시적 인터페이스 구현
 ---
-IExtensible.GetExtensionObject(Boolean)
+
+## IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 ```
 ### 매개 변수 (인자)
+
 |타입|이름|설명|
 |:-|:-|:-|
-|System.Boolean|	createIfMissing	
+|System.Boolean|createIfMissing|
 
 #### 반환
 

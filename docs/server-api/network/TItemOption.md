@@ -30,13 +30,16 @@ public class TItemOption : IExtensible
 ```
 ## 생성자
 ---
-TItemOption()
+## TItemOption()
 
 #### 선언
 ```cs
 public TItemOption()
-프로퍼티
-statID
+```
+
+## 프로퍼티
+---
+## statID
 
 #### 선언
 ```cs
@@ -47,8 +50,7 @@ public int statID { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-type
+|System.Int32|type|
 
 #### 선언
 ```cs
@@ -59,8 +61,7 @@ public int type { get; set; }
 
 |타입|설명|
 |:-|:-|
-|System.Int32|	
-value
+|System.Int32|value|
 
 #### 선언
 ```cs
@@ -72,18 +73,20 @@ public float value { get; set; }
 |타입|설명|
 |:-|:-|
 |System.Single|	
+
 ## 명시적 인터페이스 구현
 ---
-IExtensible.GetExtensionObject(Boolean)
+## IExtensible.GetExtensionObject(Boolean)
 
 #### 선언
 ```cs
 IExtension IExtensible.GetExtensionObject(bool createIfMissing)
 ```
 ### 매개 변수 (인자)
+
 |타입|이름|설명|
 |:-|:-|:-|
-|System.Boolean|	createIfMissing	
+|System.Boolean|CreateIfMissing|
 
 #### 반환
 
