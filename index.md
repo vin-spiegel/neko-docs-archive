@@ -12,14 +12,14 @@ nav_order: 1
 네코랜드 Lua 스크립팅에 대한 내용을 담은 비공식 Docs 입니다
 {: .fs-6 .fw-300 .text-center .lh-tight }
 
-<br/><br/>
+<br/>
 
 <div align="center" class= "fs-7">
     <button type="button" class="btn mr-5 btn-purple" onclick="location.href='docs/getting-start/what-is-script'">시작하기</button>
     <button type="button" class="btn btn-outline" onclick="location.href='https://github.com/vin-spiegel/neko-docs-archive'">GitHub</button>
 </div>
 
-<br/><br/><br/>
+<br/><br/>
 
 <div class="code-example" markdown="1">
 <p style="font-size:20px"><strong>간단한 API</strong></p>
