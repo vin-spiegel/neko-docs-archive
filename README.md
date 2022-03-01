@@ -1,6 +1,3 @@
-<p align="right">
-    <a href="https://badge.fury.io/rb/just-the-docs"><img src="https://badge.fury.io/rb/just-the-docs.svg" alt="Gem version"></a>
-</p>
 <br><br>
 <p align="center">
     <h1 align="center">Neko Docs Archive</h1>
@@ -12,3 +9,4 @@
 #### 사용 툴: [Jekyll](https://jekyllrb.com/)
 
 #### 테마 : [just-the-docs](https://github.com/pmarsceill/just-the-docs)
+
