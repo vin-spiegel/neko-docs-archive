@@ -9,4 +9,3 @@
 #### 사용 툴: [Jekyll](https://jekyllrb.com/)
 
 #### 테마 : [just-the-docs](https://github.com/pmarsceill/just-the-docs)
-
