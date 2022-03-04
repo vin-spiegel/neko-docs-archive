@@ -2,7 +2,7 @@
 layout: default
 title: NekoItemType
 parent: Commons.Server
-grand_parent: Server API
+has_children: true
 nav_order: 3
 ---
 
@@ -29,46 +29,6 @@ public class NekoItemType
 
 ## 변수
 ---
-
-## ACC
-악세서리
-
-#### 선언
-```cs
-public const int ACC = 6
-```
-#### 필드 값
-
-|타입|설명|
-|:-|:-|
-|System.Int32|	
-
-## ARMOR
-갑옷
-
-#### 선언
-```cs
-public const int ARMOR = 1
-```
-
-#### 필드 값
-
-|타입|설명|
-|:-|:-|
-|System.Int32|	
-
-## CONSUMABLE
-소모품
-
-#### 선언
-```cs
-public const int CONSUMABLE = 10
-```
-#### 필드 값
-
-|타입|설명|
-|:-|:-|
-|System.Int32|	
 
 ## HAT
 모자
