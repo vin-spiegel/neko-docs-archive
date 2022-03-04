@@ -2,12 +2,12 @@
 layout: default
 title: 튜토리얼
 has_children: true
-nav_order: 3
+nav_order: 2
 permalink: /docs/tutorial
 ---
 {:toc}
 
-# 자습서
+# Lua 스크립트 튜토리얼
 
-이 자습서는 네코랜드 스크립트에 대한 지식을 가정하지 않습니다.
+네코랜드 스튜디오에서 LUA 스크립트 언어를 이용하여 게임을 만드는 방법에 대해 알아봅니다.
  

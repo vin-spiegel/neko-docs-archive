@@ -47,14 +47,13 @@ public DateTime createdAt { get; }
 
 #### 프로퍼티 값
 
-|타입            |설명  |
-|:--------------|:-----|
-|System.DateTime|      |
+|타입|설명|
+|:-|:-|
+|System.DateTime|
 
-#### 예제
+#### 예제: 현재 내 플레이어가 속한 클랜의 생성된 시간을 출력합니다
 
 ```lua
--- 현재 내 플레이어가 속한 클랜의 생성된 시간을 출력합니다.
 local myClan = unit.player.clan
 print(myClan.createdAt.ToLocalTime().ToString())
 ```
@@ -71,9 +70,9 @@ public long id { get; }
 
 #### 프로퍼티 값
 
-|타입         |설명   |
-|:------------|:-----|
-|System.Int64|       |
+|타입|설명|
+|:-|:-|
+|System.Int64|
 
 #### 예제
 

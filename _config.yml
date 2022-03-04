@@ -8,10 +8,9 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 , "docs/tests/"
 ]
 
-# Regression tests
-# By default, the pages in /docs/tests are excluded when the ste is built.
-# To include them, comment-out the relevant line above.
-# Uncommenting the following line doesn't work - see https://github.com/jekyll/jekyll/issues/4791
+# 기본적으로 /docs/tests의 페이지는 ste가 빌드될 때 제외됩니다.
+# 포함하려면 위의 관련 줄을 주석 처리하십시오.
+# 다음 줄의 주석 해제는 작동하지 않습니다 - https://github.com/jekyll/jekyll/issues/4791 참조
 # include: ["docs/tests/"]
 
 # 로고 이미지
@@ -21,28 +20,26 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 # Supports true (default) or false
 search_enabled: true
 search:
-  # Split pages into sections that can be searched individually
-  # Supports 1 - 6, default: 2
+  # 개별적으로 검색할 수 있는 섹션으로 페이지 분할
+  # 1 - 6 지원, 기본값: 2
   heading_level: 2
-  # Maximum amount of previews per search result
+  # 검색 결과당 최대 미리보기 수  
   # Default: 3
   previews: 2
-  # Maximum amount of words to display before a matched word in the preview
-  # Default: 5
+  # 미리보기에서 일치하는 단어 앞에 표시할 최대 단어 수
   preview_words_before: 3
-  # Maximum amount of words to display after a matched word in the preview
-  # Default: 10
+  # 미리보기에서 일치하는 단어 뒤에 표시할 최대 단어 수 Default: 10
   preview_words_after: 3
-  # Set the search token separator
-  # Default: /[\s\-/]+/
-  # Example: enable support for hyphenated search words
+  # 검색 토큰 구분 기호 설정
+  # 기본값: /[\s\-/]+/
+  # 예: 하이픈으로 연결된 검색어 지원 활성화
   tokenizer_separator: /[\s/]+/
-  # Display the relative url in search results
-  # Supports true (default) or false
+  # 검색 결과에 상대 URL 표시
+  # true(기본값) 또는 false 지원
   rel_url: true
-  # Enable or disable the search button that appears in the bottom right corner of every page
+  # 모든 페이지의 오른쪽 하단에 나타나는 검색 버튼을 활성화 또는 비활성화합니다.
   # Supports true or false (default)
-  button: false
+  button: true
 
 # Enable or disable heading anchors
 heading_anchors: true
@@ -57,7 +54,7 @@ aux_links_new_tab: true
 # Sort order for navigation links
 # default, equivalent to nil
 # Capital letters sorted before lowercase
-nav_sort: case_sensitive 
+# nav_sort: case_sensitive 
 
 # Footer content
 # appears at the bottom of every page's main content

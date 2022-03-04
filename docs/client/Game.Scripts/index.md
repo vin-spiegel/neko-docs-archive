@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Game.Scripts
-parent: Client API
 has_children: true
-nav_order: 2
+nav_order: 11
 ---
 
 # Namespace Game.Scripts

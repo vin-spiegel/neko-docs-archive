@@ -1,15 +1,14 @@
 ---
 layout: default
-title: Server API
-has_children: true
-nav_order: 4
-# permalink: /docs/server-api
+title: 클라이언트 API
+nav_order: 9
+# permalink: /docs/client-api
 ---
 {:toc}
 
-# 서버 스크립트
+# 클라이언트 스크립트
 
-네코랜드 서버 스크립트에 대한 문서입니다
+네코랜드 클라이언트 스크립트에 대한 문서입니다
  
 ## Tips
 

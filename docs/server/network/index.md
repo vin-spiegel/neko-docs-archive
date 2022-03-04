@@ -1,9 +1,8 @@
 ---
 layout: default
 title: network
-parent: Server API
 has_children: true
-nav_order: 3
+nav_order: 8
 ---
 
 # Namespace network

@@ -1,9 +1,8 @@
 ---
 layout: default
 title: WebGLSupport.Detail
-parent: Client API
 has_children: true
-nav_order: 4
+nav_order: 13
 ---
 
 {:toc}

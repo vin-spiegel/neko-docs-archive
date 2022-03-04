@@ -1,7 +1,6 @@
 ---
 title: home
 layout: home
-nav_order: 1
 nav_exclude: true
 search_exclude: true
 ---
