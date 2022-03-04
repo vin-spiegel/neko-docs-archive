@@ -1,8 +1,9 @@
 ---
-title: 시작하기
+title: home
 layout: home
-has_children: true
-nav_order: 1
+# nav_order: 1
+# nav_exclude: true
+# search_exclude: true
 ---
 
 <br/>
@@ -15,8 +16,8 @@ nav_order: 1
 <br/>
 
 <div align="center" class= "fs-7">
-    <button type="button" class="btn mr-5 btn-purple" onclick="location.href='docs/getting-start/what-is-script'">시작하기</button>
-    <button type="button" class="btn btn-outline" onclick="location.href='https://github.com/vin-spiegel/neko-docs-archive'">GitHub</button>
+    <button type="button" class="btn mr-5 btn-blue" onclick="location.href='docs/getting-start/what-is-script'">빠른시작</button>
+    <button type="button" class="btn btn-outline" onclick="location.href='https://github.com/vin-spiegel/neko-docs-archive'">튜토리얼</button>
 </div>
 
 <br/><br/>

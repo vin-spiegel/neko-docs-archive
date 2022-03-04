@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 자습서
+title: 튜토리얼
 has_children: true
 nav_order: 2
 permalink: /docs/tutorial
