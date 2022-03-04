@@ -2,7 +2,7 @@
 layout: default
 title: ScriptClan
 parent: Commons.Server.Scripts
-grand_parent: Server API
+has_children: true
 nav_order: 1
 ---
 
@@ -34,29 +34,6 @@ public class ScriptClan : ScriptObject
 
 ## 프로퍼티
 ---
-
-## createdAt
-
-클랜 생성일
-
-#### 선언
-
-```cs
-public DateTime createdAt { get; }
-```
-
-#### 프로퍼티 값
-
-|타입|설명|
-|:-|:-|
-|System.DateTime|
-
-#### 예제: 현재 내 플레이어가 속한 클랜의 생성된 시간을 출력합니다
-
-```lua
-local myClan = unit.player.clan
-print(myClan.createdAt.ToLocalTime().ToString())
-```
 
 ## id
 
@@ -143,36 +120,7 @@ print(myClan.name)
 ## 함수
 ---
 
-## GetMemberName(Int64)
 
-ID로 멤버 이름 가져오기
-
-#### 선언
-
-```cs
-public string GetMemberName(long id)
-```
-
-#### 매개 변수(인자)
-
-|타입          |이름       |설명       |
-|:------------|:---------|:------------|
-|System.String|id          |해당 멤버ID  |
-
-#### 반환
-
-|타입          |설명       |
-|:------------|:---------|
-|System.String|          |
-
-#### 예제
-
-```lua
--- ID가 1인 클랜 맴버 이름 출력하기
-
-local myClan = unit.player.clan
-print(myClan.GetMemberName(1))
-```
 
 ## Invalidate()
 
