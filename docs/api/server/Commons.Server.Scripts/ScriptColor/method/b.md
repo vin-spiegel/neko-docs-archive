@@ -16,7 +16,6 @@ nav_order: 0
 어셈블리: Creator.dll
 {: .text-zeta .no_toc}
 
-
 #### 선언
 ```cs
 public int b { get; set; }
