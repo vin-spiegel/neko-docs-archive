@@ -35,30 +35,6 @@ public class ScriptClan : ScriptObject
 ## 프로퍼티
 ---
 
-## id
-
-고유 ID
-
-#### 선언
-
-```cs
-public long id { get; }
-```
-
-#### 프로퍼티 값
-
-|타입|설명|
-|:-|:-|
-|System.Int64|
-
-#### 예제
-
-```lua
--- 현재 내 플레이어가 속한 클랜의 ID를 출력합니다.
-
-local myClan = unit.player.clan
-print(myClan.id)
-```
 
 ## masterPlayerID
 
@@ -72,9 +48,9 @@ public long masterPlayerID { get; }
 
 #### 프로퍼티 값
 
-|타입         |설명   |
-|:------------|:-----|
-|System.Int64|       |
+|타입|설명|
+|:-|:-|
+|System.Int64|
 
 ## memberIDs
 
@@ -92,51 +68,9 @@ public long[] memberIDs { get; }
 |:------------|:---------|
 |System.Int64[]|         |
 
-## name
-
-고유 이름
-
-#### 선언
-
-```cs
-public string name { get; }
-```
-
-#### 프로퍼티 값
-
-|타입|설명|
-|:-|:-|
-|System.String|
-
-#### 예제
-
-```lua
--- 현재 내 플레이어가 속한 클랜의 이름을 출력합니다.
-
-local myClan = unit.player.clan
-print(myClan.name)
-```
 
 ## 함수
 ---
 
 
 
-## Invalidate()
-
-클랜 정보 갱신
-
-#### 선언
-
-```cs
-public void Invalidate()
-```
-
-#### 예제
-
-```lua
--- 현재 내 플레이어가 속한 클랜의 정보를 갱신
-
-local myClan = unit.player.clan
-myClan.Invalidate()
-```
