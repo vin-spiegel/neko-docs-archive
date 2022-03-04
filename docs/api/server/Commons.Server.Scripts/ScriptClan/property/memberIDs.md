@@ -8,7 +8,7 @@ nav_order: 0
 
 <!-- 아래로 편집 -->
 
-## memberIDs
+# memberIDs
 멤버 ID를 배열로 가져오기
 
 네임스페이스: System
@@ -16,12 +16,12 @@ nav_order: 0
 어셈블리: Creator.dll
 {: .text-zeta .no_toc}
 
-#### 선언
+## 선언
 ```cs
 public long[] memberIDs { get; }
 ```
 
-#### 프로퍼티 값
+## 프로퍼티 값
 
 |타입|설명|
 |:-|:-|

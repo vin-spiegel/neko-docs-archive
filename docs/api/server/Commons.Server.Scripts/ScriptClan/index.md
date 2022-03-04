@@ -35,40 +35,6 @@ public class ScriptClan : ScriptObject
 ## 프로퍼티
 ---
 
-
-## masterPlayerID
-
-클랜 마스터의 ID
-
-#### 선언
-
-```cs
-public long masterPlayerID { get; }
-```
-
-#### 프로퍼티 값
-
-|타입|설명|
-|:-|:-|
-|System.Int64|
-
-## memberIDs
-
-멤버 ID를 배열로 가져오기
-
-#### 선언
-
-```cs
-public long[] memberIDs { get; }
-```
-
-#### 프로퍼티 값
-
-|타입         |설명       |
-|:------------|:---------|
-|System.Int64[]|         |
-
-
 ## 함수
 ---
 
