@@ -2,7 +2,7 @@
 layout: default
 title: 빠른시작
 has_children: true
-nav_order: 1
+nav_order: 2
 permalink: /docs/getting-start
 ---
 
