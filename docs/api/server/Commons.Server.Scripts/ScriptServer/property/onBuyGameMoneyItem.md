@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <font color="#2c84fa">❒</font> onBuyGameMoneyItem
+title: <font color="#2c84fa">❒</font>onBuyGameMoneyItem
 parent: ScriptServer
 grand_parent: Commons.Server.Scripts
 nav_order: 0
@@ -28,6 +28,7 @@ public ScriptEventPublisher onBuyGameMoneyItem { get; }
 ```
 
 #### 프로퍼티 값
+
 |타입|설명|
 |:-|:-|
 |ScriptEventPublisher|
