@@ -18,14 +18,14 @@ nav_order: 1
 {: .text-zeta}
 
 #### Syntax
-```CS
+```cs
 public enum DpadType
 ```
 
 ## 변수
 
 |이름|설명|
-|:--|:--|
+|:-|:-|
 |EIGHT|
 |PLATFORMER|
 |QUAD|

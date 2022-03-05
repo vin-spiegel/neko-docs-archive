@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Commons.Server
-# parent: Server API
+# parent: 서버 API
 has_children: true
 nav_order: 6
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: WING
+title: <div style="white-space:nowrap;"><font color="#2c84fa">❒ </font>WING</div>
 parent: NekoEquipSlot
 grand_parent: Commons.Server
 nav_order: 9

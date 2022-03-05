@@ -1,6 +1,6 @@
 ---
 layout: default
-title: RING1
+title: <div style="white-space:nowrap;"><font color="#2c84fa">❒ </font>RING1</div>
 parent: NekoEquipSlot
 grand_parent: Commons.Server
 nav_order: 5

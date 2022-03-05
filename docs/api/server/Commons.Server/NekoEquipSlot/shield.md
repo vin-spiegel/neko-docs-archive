@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SHIELD
+title: <div style="white-space:nowrap;"><font color="#2c84fa">❒ </font>SHIELD</div>
 parent: NekoEquipSlot
 grand_parent: Commons.Server
 nav_order: 3

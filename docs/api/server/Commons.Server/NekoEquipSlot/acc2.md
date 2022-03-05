@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ACC2
+title: <div style="white-space:nowrap;"><font color="#2c84fa">❒ </font>ACC2</div>
 parent: NekoEquipSlot
 grand_parent: Commons.Server
 nav_order: 8
