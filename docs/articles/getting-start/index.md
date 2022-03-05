@@ -20,5 +20,8 @@ print("Hello, World!")
 Hello, World!
 ```
 
+<span>&#10066;</span>
+❒
+
 ### [다음으로](how-to-apply)
 

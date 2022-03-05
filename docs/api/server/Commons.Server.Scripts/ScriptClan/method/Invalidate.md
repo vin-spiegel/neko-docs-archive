@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Invalidate()
+title: <font color="#2c84fa">𝑓</font> Invalidate
 parent: ScriptClan
 grand_parent: Commons.Server.Scripts
 nav_order: 1

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GetMemberName(Int64)
+title: <font color="#2c84fa">𝑓</font> GetMemberName
 parent: ScriptClan
 grand_parent: Commons.Server.Scripts
 nav_order: 1

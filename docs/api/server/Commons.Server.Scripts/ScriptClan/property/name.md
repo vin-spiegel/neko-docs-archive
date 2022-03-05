@@ -1,6 +1,6 @@
 ---
 layout: default
-title: name
+title: <font color="#2c84fa">❒</font> name
 parent: ScriptClan
 grand_parent: Commons.Server.Scripts
 nav_order: 0
