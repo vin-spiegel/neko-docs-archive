@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <font color="#2c84fa">❒</font> onUnitDead
+title: <font color="#2c84fa">❒ </font>onUnitDead
 parent: ScriptServer
 grand_parent: Commons.Server.Scripts
 nav_order: 0

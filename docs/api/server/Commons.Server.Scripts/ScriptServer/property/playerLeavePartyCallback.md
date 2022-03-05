@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <font color="#2c84fa">❒</font> playerLeavePartyCallback
+title: <div style="white-space:nowrap; "><font color="#2c84fa">❒ </font>playerLeavePartyCallback</div>
 parent: ScriptServer
 grand_parent: Commons.Server.Scripts
 nav_order: 0

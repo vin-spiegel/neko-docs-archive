@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <font color="#2c84fa">❒</font>onStartState
+title: <font color="#2c84fa">❒ </font>onStartState
 parent: ScriptServer
 grand_parent: Commons.Server.Scripts
 nav_order: 0

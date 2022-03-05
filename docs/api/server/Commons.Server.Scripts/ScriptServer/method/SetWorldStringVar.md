@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <font color="#2c84fa">𝑓</font> SetWorldStringVar
+title: <font color="#2c84fa">𝑓 </font>SetWorldStringVar
 parent: ScriptServer
 grand_parent: Commons.Server.Scripts
 nav_order: 1
