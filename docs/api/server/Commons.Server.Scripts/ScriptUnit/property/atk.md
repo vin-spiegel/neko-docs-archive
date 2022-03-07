@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <font color="#2c84fa"> ❒ </font>atk
+title: <div style="white-space:nowrap;"><font color="#2c84fa">❒ </font>atk</div>
 parent: ScriptUnit
 grand_parent: Commons.Server.Scripts
 nav_order: 0

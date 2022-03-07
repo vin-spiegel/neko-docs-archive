@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <font color="#2c84fa">𝑓</font> Invalidate
+title: <div style="white-space:nowrap;"><font color="#2c84fa">𝑓 </font>Invalidate</div>
 parent: ScriptClan
 grand_parent: Commons.Server.Scripts
 nav_order: 1
@@ -8,7 +8,8 @@ nav_order: 1
 
 <!-- 아래로 편집 -->
 
-# [ScriptClan](../../).Invalidate()
+# Invalidate()
+
 클랜 정보를 갱신합니다
 
 네임스페이스: System

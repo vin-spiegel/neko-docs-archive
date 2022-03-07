@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <font color="#2c84fa"> ❒ </font>attack
+title: <div style="white-space:nowrap;"><font color="#2c84fa">❒ </font>buffs</div>
 parent: ScriptUnit
 grand_parent: Commons.Server.Scripts
 nav_order: 0
