@@ -1,6 +1,6 @@
 ---
 layout: default
-title: job
+title: <div style="white-space:nowrap; "><font color="#2c84fa">❒ </font>job</div>
 nav_order: 0
 parent: ScriptRankingRow
 grand_parent: Commons.Server.Scripts

@@ -3,7 +3,7 @@ layout: default
 title: ScriptRankingRow
 nav_order: 13
 parent: Commons.Server.Scripts
-grand_parent: Server API
+has_children: true
 ---
 
 <!-- 아래에 문서 작성 -->

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: ScriptEnemyUnitAI
+has_children: true
 parent: Commons.Server.Scripts
-grand_parent: Server API
 nav_order: 4
 ---
 

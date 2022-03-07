@@ -2,7 +2,7 @@
 layout: default
 title: ScriptEventPublisher
 parent: Commons.Server.Scripts
-grand_parent: Server API
+has_children: true
 nav_order: 5
 ---
 

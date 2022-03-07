@@ -1,8 +1,8 @@
 ---
 layout: default
-title: <div style="white-space:nowrap; "><font color="#2c84fa">𝑓 </font>initPosX</div>
+title: <div style="white-space:nowrap; "><font color="#2c84fa">❒ </font>initPosX</div>
 nav_order: 0
-parent: ScriptDropItem
+parent: ScriptEnemyUnitAI
 grand_parent: Commons.Server.Scripts
 ---
 

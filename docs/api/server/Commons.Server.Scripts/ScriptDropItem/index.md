@@ -1,10 +1,9 @@
 ---
 layout: default
 title: ScriptDropItem
+has_children: true
 parent: Commons.Server.Scripts
-grand_parent: Server API
 nav_order: 3
-# permalink: /docs/server-api/Commons.Server.Scripts/ScriptDropItem
 ---
 
 # Class ScriptDropItem 

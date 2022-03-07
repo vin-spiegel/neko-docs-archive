@@ -2,8 +2,8 @@
 layout: default
 title: ScriptUnit
 nav_order: 17
-has_children: true
 parent: Commons.Server.Scripts
+has_children: true
 ---
 
 <!-- 아래에 문서 작성 -->

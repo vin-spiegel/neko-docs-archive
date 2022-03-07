@@ -1,6 +1,6 @@
 ---
 layout: default
-title: id
+title: <div style="white-space:nowrap; "><font color="#2c84fa">❒ </font>id</div>
 nav_order: 0
 parent: ScriptRankingRow
 grand_parent: Commons.Server.Scripts

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: ScriptColor
+has_children: true
 parent: Commons.Server.Scripts
-grand_parent: Server API
 nav_order: 2
 ---
 

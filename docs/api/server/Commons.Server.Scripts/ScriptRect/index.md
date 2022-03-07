@@ -1,9 +1,10 @@
 ---
 layout: default
 title: ScriptRect
+has_children: true
 nav_order: 14
 parent: Commons.Server.Scripts
-grand_parent: Server API
+
 ---
 
 <!-- 아래에 문서 작성 -->

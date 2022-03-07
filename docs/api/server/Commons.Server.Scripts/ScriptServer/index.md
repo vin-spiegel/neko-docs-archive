@@ -2,9 +2,8 @@
 layout: default
 title: ScriptServer
 nav_order: 16
-has_children: true
 parent: Commons.Server.Scripts
-grand_parent: Server API
+has_children: true
 ---
 
 <!-- 아래에 문서 작성 -->
