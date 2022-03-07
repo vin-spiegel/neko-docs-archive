@@ -37,54 +37,7 @@ public class ScriptRankingRow
 
 ## 프로퍼티
 
-## id
+---
 
-#### 선언
-```cs
-public long id { get; }
-```
 
-#### 프로퍼티 값
 
-|타입|설명|
-|:--|:--|
-|System.Int64|
-
-## job
-
-#### 선언
-```cs
-public int job { get; }
-```
-
-#### 프로퍼티 값
-
-|타입|설명|
-|:--|:--|
-|System.Int32|
-
-## name
-
-#### 선언
-```cs
-public string name { get; }
-```
-
-#### 프로퍼티 값
-
-|타입|설명|
-|:-|:-|
-|System.String|
-
-## score
-
-#### 선언
-```cs
-public long score { get; }
-```
-
-#### 프로퍼티 값
-
-|타입|설명|
-|:-|:-|
-|System.Int64|
